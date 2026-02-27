@@ -2,7 +2,10 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="theme-color" content="#110b06">
 <title>Freemaltson's — Whisky Nights</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -1062,14 +1065,51 @@ header::before {
 ::-webkit-scrollbar-track { background: var(--bg-deep); }
 ::-webkit-scrollbar-thumb { background: var(--border-gold); border-radius: 3px; }
 
+/* ── Tap highlights ──────────────────────────────────────────────── */
+.card, .pill, .host-btn, .btn-primary, .btn-back,
+.find-btn, .fab, .stats-toggle, .modal-close {
+  -webkit-tap-highlight-color: transparent;
+}
+
 /* ── Responsive ──────────────────────────────────────────────────── */
 @media (max-width: 540px) {
+  /* Disable fixed background — causes scroll jank on iOS */
+  body { background-attachment: scroll; }
+
   .header-title { font-size: 1.7rem; }
   .host-grid { grid-template-columns: repeat(2, 1fr); }
   .fields-row { grid-template-columns: 1fr; }
   .sessions-grid { grid-template-columns: repeat(2, 1fr); gap: 12px; }
-  .modal { padding: 28px 20px 24px; }
-  .fab { right: 16px; bottom: 16px; padding: 11px 20px; }
+  .modal {
+    padding: 28px 20px 24px;
+    max-height: 92dvh;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  /* FAB above iPhone home indicator */
+  .fab {
+    right: 16px;
+    bottom: calc(16px + env(safe-area-inset-bottom));
+    padding: 11px 20px;
+  }
+
+  /* Prevent iOS zoom on input focus (requires font-size >= 16px) */
+  .search-input  { font-size: 16px; }
+  .modal-input   { font-size: 16px; }
+
+  /* Filter pill rows scroll horizontally instead of wrapping */
+  .filter-group {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    padding-bottom: 2px;
+  }
+  .filter-group::-webkit-scrollbar { display: none; }
+
+  /* Bigger tap targets for small buttons */
+  .modal-close { padding: 8px 14px; font-size: 1.2rem; }
+  .find-btn    { padding: 10px 6px; }
 }
 
 @media (max-width: 360px) {
