@@ -1,0 +1,9062 @@
+[
+  {
+    "whisky": "2 Gingers Irish Whiskey",
+    "region": "Ireland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "66 Gilead Crimson Rye",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "66 Gilead The Wild Oak",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "8 Seconds",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Aberfeldy 12yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Aberfeldy 16yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Aberfeldy 18yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Aberfeldy 21yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Aberlour 10yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Aberlour 12yo Double Cask Matured",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Aberlour 12yo Non-Chill-Filtered",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Aberlour 16yo Double Cask Matured",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Aberlour 18yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Aberlour A'Bunadh (all batches)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Aberlour A'Bunadh (Batch 30)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Aberlour A'Bunadh (Batch 32)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Aberlour A'Bunadh (Batch 33)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Aberlour A'Bunadh (Batch 34)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Aberlour A'Bunadh (Batch 35)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Aberlour A'Bunadh (Batch 36)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Aberlour A'Bunadh (Batch 37)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Aberlour A'Bunadh (Batch 38)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Aberlour A'Bunadh (Batch 39)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Aberlour A'Bunadh (Batch 40)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Aberlour A'Bunadh (Batch 42)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Aberlour A'Bunadh (Batch 44)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Aberlour A'Bunadh (Batch 45)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Aberlour A'Bunadh (Batch 46)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Aberlour A'Bunadh (Batch 47)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Aberlour A'Bunadh (Batch 48)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Aberlour A'Bunadh (Batch 49)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Aberlour A'Bunadh (Batch 50)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Aberlour A'Bunadh (Batch 52)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Aberlour A'Bunadh (Batch 53)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Aberlour A'Bunadh (Batch 54)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Aberlour A'Bunadh (Batch 56)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Aberlour A'Bunadh (Batch 57)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Aberlour A'Bunadh (Batch 58)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Aberlour A'Bunadh (Batch 59)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Aberlour A'Bunadh (Batch 60)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Aberlour A'Bunadh (Batch 61)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Aberlour A'Bunadh (Batch 62)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Aberlour A'Bunadh (Batch 65)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Aberlour A'Bunadh (Batch 66)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Aberlour A'Bunadh (Batch 69)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Aberlour A'Bunadh Alba (all batches)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Aberlour A'Bunadh Alba (Batch 1)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Aberlour Casg Annamh",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Alberta Premium",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Alberta Premium 20yo",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Alberta Premium Cask Strength Rye (all batches)",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Alberta Premium Cask Strength Rye (Batch 1 65.1% 2019)",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Alberta Premium Cask Strength Rye (Batch 2 66% 2020)",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Alberta Premium Dark Horse",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Alberta Rye Dark Batch",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Alberta Springs 10yo",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Amrut 100 Peated",
+    "region": "India",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Amrut Bengal Tiger PX Single Cask (Canada)",
+    "region": "India",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Amrut Bourbon Single Cask",
+    "region": "India",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Amrut Cask Strength",
+    "region": "India",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Amrut Double Cask",
+    "region": "India",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Amrut Fusion",
+    "region": "India",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Amrut Greedy Angels (8yo and 10yo)",
+    "region": "India",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Amrut Herald",
+    "region": "India",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Amrut Indian Single Malt",
+    "region": "India",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Amrut Intermediate Sherry",
+    "region": "India",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Amrut Kadhambam",
+    "region": "India",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Amrut Madeira Cask Finish (Batch 1)",
+    "region": "India",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Amrut Naarangi",
+    "region": "India",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Amrut Peated",
+    "region": "India",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Amrut Peated Cask Strength",
+    "region": "India",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Amrut Portonova",
+    "region": "India",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Amrut Portpipe Peated Single Cask #2712 (2013)",
+    "region": "India",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Amrut Portpipe Peated Single Cask #2712 (2016)",
+    "region": "India",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Amrut Portpipe Peated Single Cask #2713 (2013)",
+    "region": "India",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Amrut Portpipe Peated Single Cask #4668 (2017)",
+    "region": "India",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Amrut Portpipe Peated Single Cask (all casks)",
+    "region": "India",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Amrut PX Sherry Single Cask (all casks)",
+    "region": "India",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Amrut PX Sherry Single Cask 2696 (LCBO)",
+    "region": "India",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Amrut PX Sherry Single Cask 2701",
+    "region": "India",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Amrut PX Sherry Single Cask 2702",
+    "region": "India",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Amrut PX Sherry Single Cask 3516 (SAQ)",
+    "region": "India",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Amrut Rye",
+    "region": "India",
+    "type": "Rye"
+  },
+  {
+    "whisky": "Amrut Spectrum (all batches)",
+    "region": "India",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Amrut Spectrum (Batch 1)",
+    "region": "India",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Amrut Spectrum 004 (Batch 2)",
+    "region": "India",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Amrut Two Continents",
+    "region": "India",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Amrut Virgin Oak Single Cask",
+    "region": "India",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Ancient Age 10yo Kentucky Straight Bourbon",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Ancient Age Kentucky Straight Bourbon",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "AnCnoc 12yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "AnCnoc 16yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "AnCnoc 18yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "AnCnoc 1975",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "AnCnoc 2000",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "AnCnoc 22yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "AnCnoc Cutter",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "AnCnoc Flaughter",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "AnCnoc Peter Arkle (all releases)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "AnCnoc Rutter",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Angel\u2019s Envy Rye (Rum-finished)",
+    "region": "USA",
+    "type": "Rye"
+  },
+  {
+    "whisky": "Angel's Envy Bourbon (Port-finished)",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Angel's Envy Cask Strength",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Ardbeg 10yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Ardbeg 17yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Ardbeg 19yo Traigh Bhan",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Ardbeg 21yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Ardbeg 22yo Twenty Something",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Ardbeg 23yo Twenty Something",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Ardbeg Alligator",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Ardbeg An Oa",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Ardbeg Ardbog",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Ardbeg Auriverdes",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Ardbeg Corryvreckan",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Ardbeg Dark Cove",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Ardbeg Drum",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Ardbeg Galileo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Ardbeg Grooves",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Ardbeg Kelpie",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Ardbeg Perpetuum",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Ardbeg Supernova 2014",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Ardbeg Supernova 2015",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Ardbeg Supernova 2019",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Ardbeg Uigeadail",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Ardmore Traditional Cask",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Arran Malt 10yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Arran Malt 12yo Cask Strength (all editions)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Arran Malt 14yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Arran Malt 17yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Arran Malt 18yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Arran Malt 21st Anniversary Edition",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Arran Malt Amarone Cask Finish",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Arran Malt Bourbon Single Cask",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Arran Malt Lochranza Reserve",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Arran Malt Machrie Moor Cask Strength",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Arran Malt Machrie Moor Peated (all editions)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Arran Malt Madeira Wine Cask",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Arran Malt Napoleon Cognac Finish",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Arran Malt Orkney Bere Barley",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Arran Malt Pomerol Bordeaux Cask Finish",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Arran Malt Port Cask Finish",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Arran Malt Robert Burns Single Malt",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Arran Malt Sassicaia Wine Cask Finish",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Arran Malt Sauternes Finish",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Arran Malt Sherry Cask Finish",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Arran Malt Sherry Single Cask",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Arran Malt The Devil\u2019s Punch Bowl (all chapters)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Arran Malt Tokaji Aszu Wine Finish",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Auchentoshan 10yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Auchentoshan 12yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Auchentoshan 18yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Auchentoshan 21yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Auchentoshan American Oak",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Auchentoshan Bartender's Malt",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Auchentoshan Classic",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Auchentoshan Three Wood",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Auchentoshan Valinch",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Auchentoshan Virgin Oak",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Auchroisk 10yo (F&F)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Aultmore 12yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Aultmore 18yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Aultmore 21yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Aultmore 25yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bain's Cape Mountain Whisky",
+    "region": "South Africa",
+    "type": "Grain"
+  },
+  {
+    "whisky": "Baker\u2019s 7yo Single Barrel Bourbon",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Baker\u2019s 7yo Small Batch Bourbon",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Balblair 10yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Balblair 12yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Balblair 15yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Balblair 16yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Balblair 18yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Balblair 1989",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Balblair 1990 (all releases)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Balblair 2000",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Balcones Baby Blue",
+    "region": "USA",
+    "type": "Whiskey"
+  },
+  {
+    "whisky": "Balcones Texas Single Malt Whisky",
+    "region": "USA",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Ballantine's 17yo",
+    "region": "Scotland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Ballantine's Finest",
+    "region": "Scotland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Balvenie 12yo Doublewood",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Balvenie 12yo Single Barrel",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Balvenie 12yo Triple Cask",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Balvenie 14yo Carribean Cask",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Balvenie 14yo Peat Week",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Balvenie 15yo Single Barrel (Cask)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Balvenie 16yo Triple Cask",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Balvenie 17yo Doublewood",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Balvenie 21yo Port Wood",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Balvenie 25yo Single Barrel",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Balvenie TUN 1401 (all batches)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Balvenie TUN 1509 (all batches)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bank Note 5yo Blended Scotch",
+    "region": "Scotland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Barrell 15yo Craft Spirits Bourbon (Batch 001)",
+    "region": "USA",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Barrell Bourbon (all Batches)",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Barrell Bourbon Batch 002",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Barrell Bourbon Batch 004",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Barrell Bourbon Batch 005",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Barrell Bourbon Batch 006",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Barrell Bourbon Batch 007",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Barrell Bourbon Batch 008",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Barrell Bourbon Batch 009",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Barrell Bourbon Batch 011",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Barrell Bourbon Batch 013",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Barrell Bourbon Batch 015",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Barrell Bourbon Batch 016",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Barrell Bourbon Batch 017",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Barrell Bourbon Batch 018",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Barrell Bourbon Batch 019",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Barrell Bourbon New Years (all Batches)",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Barrell Bourbon New Years Batch 2017",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Barrell Bourbon New Years Batch 2018",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Barrell Dovetail Whiskey (all Batches)",
+    "region": "USA",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Barrell Infinity Barrel Project (all releases)",
+    "region": "USA",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Barrell Rye (all Batches)",
+    "region": "USA",
+    "type": "Rye"
+  },
+  {
+    "whisky": "Barrell Rye Batch 002",
+    "region": "USA",
+    "type": "Rye"
+  },
+  {
+    "whisky": "Barrell Single Barrel (all barrels)",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Barrell Whiskey (all Batches)",
+    "region": "USA",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Barrell Whiskey Batch 001",
+    "region": "USA",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Barrell Whiskey Batch 002",
+    "region": "USA",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Barrell Whiskey Batch 004",
+    "region": "USA",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Barrell Whiskey Batch 005",
+    "region": "USA",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Barton 1792 Full Proof Bourbon",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Barton 1792 High Rye Bourbon",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Barton 1792 Port Finished Bourbon",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Barton 1792 Single Barrel Bourbon",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Barton 1792 Small Batch Bourbon",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Barton 1792 Sweet Wheat Bourbon",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Basil Hayden\u2019s 10yo Bourbon",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Basil Hayden\u2019s Caribbean Reserve Rye",
+    "region": "USA",
+    "type": "Rye"
+  },
+  {
+    "whisky": "Basil Hayden\u2019s Dark Rye",
+    "region": "USA",
+    "type": "Rye"
+  },
+  {
+    "whisky": "Basil Hayden\u2019s Kentucky Bourbon",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Basil Hayden\u2019s Two by Two Rye",
+    "region": "USA",
+    "type": "Rye"
+  },
+  {
+    "whisky": "Basil Hayden's Rye Whiskey",
+    "region": "USA",
+    "type": "Rye"
+  },
+  {
+    "whisky": "Bearface Triple Oak 7yo",
+    "region": "Canada",
+    "type": "Rye"
+  },
+  {
+    "whisky": "Bell's Original Scotch Whisky",
+    "region": "Scotland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Ben Nevis 10yo (all editions)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Ben Nevis 10yo (old label, pre-2017)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Ben Nevis 10yo (post-2017)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Ben Nevis 10yo Cask Strength",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Ben Nevis 18yo The Maltman",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Ben Nevis Celebrated Traditional (NAS)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "BenRiach 10yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "BenRiach 10yo Curiositas",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "BenRiach 12yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "BenRiach 12yo Horizons",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "BenRiach 12yo Matured in Sherry Wood",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "BenRiach 15yo Sauternes Finish",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "BenRiach 15yo Tawny Port Finish",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "BenRiach 17yo Septendecim Peated",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "BenRiach 17yo Solstice 1st Peated Port Finish",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "BenRiach 17yo Solstice 2nd Peated Port Finish",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "BenRiach 17yo Solstice Peated Port (both editions)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "BenRiach 18yo Albariza Pedro Ximenez Peated",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "BenRiach 18yo Dunder",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "BenRiach 18yo Latada",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "BenRiach 20yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "BenRiach 21yo Authenticus Peated",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "BenRiach 21yo Tawny Port Finish",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "BenRiach 25yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "BenRiach 25yo Authenticus Peated",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "BenRiach 35yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "BenRiach Birnie Moss",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "BenRiach Cask Strength",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "BenRiach Heart of Speyside",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "BenRiach Peated Quarter Casks",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Benrinnes 15yo F&F",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Benromach 10yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Benromach 10yo Cask Strength (100 proof)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Benromach 15yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Benromach 5yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Benromach Organic",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Benromach Peat Smoke",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Benromach Sassicaia",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Benromach Traditional",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bernheim Original Straight Wheat 7yo Small Batch",
+    "region": "USA",
+    "type": "Wheat"
+  },
+  {
+    "whisky": "Bib & Tucker 6yo Bourbon",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Big Peat (Douglas Laing)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Big Peat Christmas Edition (all editions)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Black Bottle (after 2013 re-launch)",
+    "region": "Scotland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Black Bottle (pre-2013)",
+    "region": "Scotland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Black Bull 12yo",
+    "region": "Scotland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Black Bull 40yo",
+    "region": "Scotland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Black Velvet 3yo",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Black Velvet Deluxe",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Black Velvet Reserve 8yo",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Bladnoch 10yo (F&F)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bladnoch 12yo Sherry Cask (Sheep label)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bladnoch 15yo Adela",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bladnoch 16yo (Signatory)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bladnoch 1993-2009 (G&M)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bladnoch 19yo (Cow label)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bladnoch 9yo Lightly Peated",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bladnoch Samsara",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bladnoch Vintage 1992-2007 (Signatory)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Blair Athol 12yo (F&F)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Blandnoch Pure Scot",
+    "region": "Scotland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Blanton's Gold Kentucky Straight Bourbon",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Blanton's Original Bourbon Single Barrel",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Blanton's Special Reserve Single Barrel (Green label)",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Blanton's Straight from the Barrel Bourbon",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Blue Spot 7yo Cask Strength",
+    "region": "Ireland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Booker's Rye",
+    "region": "USA",
+    "type": "Rye"
+  },
+  {
+    "whisky": "Booker's Small Batch Straight Bourbon",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Bowmore 10yo Devil's Cask (all batches)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bowmore 10yo Tempest",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bowmore 12yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bowmore 12yo Enigma",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bowmore 15yo Darkest",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bowmore 15yo Laimrig",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bowmore 15yo Mariner",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bowmore 17yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bowmore 17yo White Sands",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bowmore 18yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bowmore 25yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bowmore Black Rock",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bowmore Gold Reef",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bowmore Legend",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bowmore Mizunara Cask Finish",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bowmore No.1",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bowmore Small Batch",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bowmore Springtide",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bowmore Vault Edition First Release",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bowmore Vault Edition Second Release",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Brora 21yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Brora 30yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Brora 35yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bruichladdich 21yo Cuv\u00e9e 382 La Berenice",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bruichladdich 21yo Cuv\u00e9e 407 PX",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bruichladdich 21yo Cuv\u00e9e 640 Eroica",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bruichladdich 8yo Laddie Eight",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bruichladdich Black Art 1989",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bruichladdich Black Art 2.x 1989",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bruichladdich Black Art 3.x 1989",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bruichladdich Black Art 4.x 1990",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bruichladdich Black Art 5.x 1992",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bruichladdich Black Art 6.x 1990",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bruichladdich Black Art 7.x 1994",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bruichladdich Black Art 8.x 1994",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bruichladdich Classic Laddie Scottish Barley",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bruichladdich Infinity Third Edition",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bruichladdich Islay Barley (all vintages)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bruichladdich Laddie Classic (Edition 01)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bruichladdich Laddie Eight 8yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bruichladdich Laddie Sixteen 16yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bruichladdich Laddie Ten 10yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bruichladdich Laddie Ten 10yo (Second Edition)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bruichladdich Laddie Twenty Two 22yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bruichladdich Octomore 10",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bruichladdich Octomore 10 (Fourth Edition)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bruichladdich Octomore 10 (Second Edition)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bruichladdich Octomore 10 (Third Edition)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bruichladdich Octomore 10.1",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bruichladdich Octomore 10.2",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bruichladdich Octomore 10.3",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bruichladdich Octomore 10.4",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bruichladdich Octomore 11.1",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bruichladdich Octomore 11.2",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bruichladdich Octomore 11.3",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bruichladdich Octomore 12.1",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bruichladdich Octomore 12.2",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bruichladdich Octomore 12.3",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bruichladdich Octomore 6.1",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bruichladdich Octomore 6.2",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bruichladdich Octomore 6.3",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bruichladdich Octomore 7.1",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bruichladdich Octomore 7.2",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bruichladdich Octomore 7.3",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bruichladdich Octomore 7.4",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bruichladdich Octomore 8.1",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bruichladdich Octomore 8.2",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bruichladdich Octomore 8.3",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bruichladdich Octomore 8.4",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bruichladdich Octomore 9.1",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bruichladdich Octomore 9.2",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bruichladdich Octomore 9.3",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bruichladdich Port Charlotte 10yo Heavily Peated (First Edition)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bruichladdich Port Charlotte 10yo Heavily Peated (Second Edition)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bruichladdich Port Charlotte 2007 CC:01",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bruichladdich Port Charlotte 2009 MC:01",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bruichladdich Port Charlotte 2010 MRC:01",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bruichladdich Port Charlotte 2010 OLC:01 9yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bruichladdich Port Charlotte An Turas Mor",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bruichladdich Port Charlotte Islay Barley Heavily Peated",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bruichladdich Port Charlotte PC10 (Second Edition)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bruichladdich Port Charlotte PC10 Tro Na Linntean",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bruichladdich Port Charlotte PC11 Eorna Na H-Alba",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bruichladdich Port Charlotte PC12 Oileanach Furachail",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bruichladdich Port Charlotte Scottish Barley Heavily Peated",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bruichladdich Port Charlotte The Peat Project",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bruichladdich Rocks",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bruichladdich Sherry Classic",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bruichladdich The Organic (all editions)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bruichladdich The Organic (Mid Coul, Coulmore, Mains of Tullibardine Farms)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bruichladdich The Organic 2003",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bruichladdich The Organic 2009",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bruichladdich The Organic 2010",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Buchanan's 12yo Deluxe Blended",
+    "region": "Scotland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Buchanan's 18yo Special Reserve Blended",
+    "region": "Scotland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Buchanan's Master Blended",
+    "region": "Scotland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Buchanan's Red Seal Blended",
+    "region": "Scotland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Buffalo Trace Bourbon",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Buffalo Trace Experimental Collection 12yo floor #1 (rye, 2014)",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Buffalo Trace Experimental Collection 12yo floor #1 (wheat, 2015)",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Buffalo Trace Experimental Collection 12yo floor #5 (rye, 2014)",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Bulleit 10yo",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Bulleit Bourbon",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Bulleit Bourbon Barrel Strength",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Bulleit Rye",
+    "region": "USA",
+    "type": "Rye"
+  },
+  {
+    "whisky": "Bunnahabhain 11yo Manzanilla Cask Matured 2008",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bunnahabhain 12yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bunnahabhain 12yo Cask Strength",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bunnahabhain 14yo 2003 Pedro Ximenez Finish",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bunnahabhain 18yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bunnahabhain 25yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bunnahabhain 40yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bunnahabhain Ce\u00f2banach",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bunnahabhain Cruach Mhona",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bunnahabhain Darach Ur",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bunnahabhain Eirigh Na Greine",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bunnahabhain Moine (all bottlings)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bunnahabhain Stiuireadair",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bunnahabhain Toiteach",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bunnahabhain Toiteach A Dha",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bushmills 10yo Single Malt",
+    "region": "Ireland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bushmills 12yo Single Malt",
+    "region": "Ireland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bushmills 16yo Single Malt",
+    "region": "Ireland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bushmills 21yo Single Malt",
+    "region": "Ireland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Bushmills Black Bush",
+    "region": "Ireland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Bushmills Original Blended",
+    "region": "Ireland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Bushmills Red Bush",
+    "region": "Ireland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Bushmills Sherry Cask Reserve",
+    "region": "Ireland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Canada Gold",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Canadian Club (Premium)",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Canadian Club 100% Rye",
+    "region": "Canada",
+    "type": "Rye"
+  },
+  {
+    "whisky": "Canadian Club 20yo",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Canadian Club 30yo",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Canadian Club 40yo",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Canadian Club 41yo Chronicles No. 1",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Canadian Club 42yo Chronicles No. 2 The Dock Man",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Canadian Club 43yo Chronicles No. 3 The Speakeasy",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Canadian Club Barley Batch",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Canadian Club Classic 12yo (Small Batch)",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Canadian Club Reserve 10yo",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Canadian Club Reserve 9yo",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Canadian Club Sherry Cask",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Canadian Mist",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Canadian Mist Black Diamond",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Canadian Rockies 17yo",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Canadian Rockies 21yo (40%)",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Canadian Rockies 21yo (46%, new label)",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Canadian Rockies 21yo (46%, old label)",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Canadian Rockies 21yo (all editions)",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Canadian Rockies 35yo",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Caol Ila 12yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Caol Ila 15yo Unpeated 2018",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Caol Ila 17yo Unpeated 2015",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Caol Ila 18yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Caol Ila 18yo Unpeated 2017",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Caol Ila 25yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Caol Ila 30yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Caol Ila 35yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Caol Ila Distiller's Edition (all editions)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Cardhu 12yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Cardhu Amber Rock",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Caribou Crossing Single Barrel",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Catto's 12yo",
+    "region": "Scotland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Catto's Rare Old",
+    "region": "Scotland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Centennial 10yo",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Century Reserve 21yo",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Century Reserve Lot 15/25",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Chivas Regal 12yo",
+    "region": "Scotland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Chivas Regal 18yo",
+    "region": "Scotland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Chivas Regal 25yo",
+    "region": "Scotland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Chivas Regal Mizunara",
+    "region": "Scotland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Chivas Regal Ultis",
+    "region": "Scotland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Chivas Royal Salute 21yo",
+    "region": "Scotland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Clynelish 14yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Collingwood",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Collingwood 21yo",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Colonel E.H. Taylor Four Grain",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Colonel E.H. Taylor Single Barrel",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Colonel E.H. Taylor Small Batch (BiB)",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Colonel E.H. Taylor Straight Rye",
+    "region": "USA",
+    "type": "Rye"
+  },
+  {
+    "whisky": "Colonel EH. Taylor Barrel Proof",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Compass Box 3yo Deluxe",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Compass Box Affinity",
+    "region": "Scotland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Compass Box Asyla",
+    "region": "Scotland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Compass Box Delilah's",
+    "region": "Scotland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Compass Box Delilah's XXV",
+    "region": "Scotland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Compass Box Double Single",
+    "region": "Scotland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Compass Box Double Single (all editions)",
+    "region": "Scotland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Compass Box Eleuthera",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Compass Box Enlightenment",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Compass Box Flaming Heart (all editions)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Compass Box Flaming Heart 2008 2nd Edition",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Compass Box Flaming Heart 2010 3rd Edition - 10th Anniversary",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Compass Box Flaming Heart 2012 4th Edition",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Compass Box Flaming Heart 2015 5th Edition - 15th Anniversary",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Compass Box Flaming Heart 2018 6th Edition",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Compass Box Great King St Artist's Blend",
+    "region": "Scotland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Compass Box Great King St Glasgow Blend",
+    "region": "Scotland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Compass Box Hedonism",
+    "region": "Scotland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Compass Box Hedonism Quindecimus",
+    "region": "Scotland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Compass Box Hedonism The Muse",
+    "region": "Scotland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Compass Box Juveniles",
+    "region": "Scotland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Compass Box Lady Luck",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Compass Box Last Vatted Malt",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Compass Box Monster 2004",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Compass Box No Name",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Compass Box No Name (all editions)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Compass Box No Name No. 2",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Compass Box Oak Cross",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Compass Box Orangerie",
+    "region": "Scotland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Compass Box Peat Monster (all editions)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Compass Box Peat Monster 2005",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Compass Box Peat Monster 2006",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Compass Box Peat Monster 2008 Reserve Edition",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Compass Box Peat Monster 2010",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Compass Box Peat Monster 2012",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Compass Box Peat Monster 2014 - 10th Anniversary",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Compass Box Peat Monster 2015",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Compass Box Peat Monster 2015 Cask Strength",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Compass Box Phenomenology",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Compass Box Rivals",
+    "region": "Scotland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Compass Box Spice Tree",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Compass Box Spice Tree Extravaganza",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Compass Box The Circle",
+    "region": "Scotland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Compass Box The Circus",
+    "region": "Scotland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Compass Box The General",
+    "region": "Scotland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Compass Box The Lost Blend",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Compass Box The Story of the Spaniard",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Compass Box This is Not a Luxury Whisky",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Connemara Peated Single Malt",
+    "region": "Ireland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Connemara Turf Mor",
+    "region": "Ireland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Copperworks American Single Malt",
+    "region": "USA",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Corner Creek Reserve Bourbon",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Coyote Ugly",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Cragganmore 12yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Cragganmore 12yo (Special Release 2019)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Cragganmore 25yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Cragganmore NAS (Special Release 2016)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Craigellachie 13yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Craigellachie 14yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Craigellachie 17yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Craigellachie 23yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Crown Royal",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Crown Royal Black",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Crown Royal Blender's Select",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Crown Royal Bourbon Mash (Blender's Mash)",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Crown Royal Hand Selected Barrel",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Crown Royal Limited Edition",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Crown Royal Monarch 75th Anniversary",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Crown Royal Noble Collection 13yo Blenders\u2019 Mash",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Crown Royal Noble Collection Cornerstone Blend",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Crown Royal Noble Collection French Oak Cask Finished",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Crown Royal Noble Collection Wine Barrel Finished",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Crown Royal Noble Collection Winter Wheat (2021)",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Crown Royal Northern Harvest Rye",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Crown Royal Reserve",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Crown Royal XO",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Cutty Sark",
+    "region": "Scotland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Cutty Sark Prohibition",
+    "region": "Scotland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Cutty Sark Storm",
+    "region": "Scotland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Dalmore 12yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Dalmore 15yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Dalmore 18yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Dalmore Cigar Malt",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Dalmore Cigar Malt Reserve",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Dalmore Gran Reserva",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Dalmore King Alexander III",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Dalmore Port Wood Reserve",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Dalmore Valour",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Dalwhinnie 15yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Dalwhinnie Distillers Edition",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Danfield's 21yo",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Deanston 10yo PX Finish",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Deanston 12yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Deanston 18yo (Bourbon Finish)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Deanston 2008 Bordeaux Red Wine Cask Matured",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Deanston Virgin Oak",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Deveron 10yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Deveron 12yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Deveron 18yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Dewar's 12yo",
+    "region": "Scotland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Dewar's White Label",
+    "region": "Scotland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Dun Bheagan Islay (all vintage editions)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Dun Bheagan Islay 1999",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Dun Bheagan Islay 2009",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Eagle Rare 10yo",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Eagle Rare 17yo",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Early Times BiB Kentucky Straight",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Early Times Kentucky Whisky",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Edradour 10yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Edradour Ballechin 10yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Elements of Islay \"Peat\"",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Elijah Craig 12yo",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Elijah Craig 18yo",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Elijah Craig 21yo",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Elijah Craig Barrel Proof",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Elijah Craig Small Batch (NAS)",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Ellington Reserve 8yo",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Elmer T. Lee Single Barrel Bourbon",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Evan Williams (Black Label)",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Evan Williams 1783 Small Batch",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Evan Williams Bottled in Bond (White label)",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Evan Williams Single Barrel",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Ezra B 12yo Single Barrel",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Ezra Brooks 7yo Old Ezra 101",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Ezra Brooks Black Label",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Ezra Brooks Rye",
+    "region": "USA",
+    "type": "Rye"
+  },
+  {
+    "whisky": "Famous Grouse",
+    "region": "Scotland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Famous Grouse Gold Reserve 12yo",
+    "region": "Scotland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Famous Grouse Smoky Black (Black Grouse)",
+    "region": "Scotland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Famous Jubilee",
+    "region": "Scotland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Fettercairn Fior",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "FEW Bourbon",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "FEW Rye Whisky",
+    "region": "USA",
+    "type": "Rye"
+  },
+  {
+    "whisky": "FEW Single Malt",
+    "region": "USA",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Finlaggan Old Reserve",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Forty Creek 22yo",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Forty Creek Barrel Select",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Forty Creek Confederation Oak (All Batches)",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Forty Creek Confederation Oak (Batch A, B)",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Forty Creek Confederation Oak (Batch C, D)",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Forty Creek Confederation Oak (Batch E, F)",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Forty Creek Confederation Oak (Batch G, H, I)",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Forty Creek Confederation Oak (Batch J, K, L)",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Forty Creek Copper Pot Reserve",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Forty Creek Double Barrel Reserve",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Forty Creek Evolution",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Forty Creek Founder's Reserve",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Forty Creek Heart of Gold",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Forty Creek Heritage 2017",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Forty Creek Port Wood Reserve 2011/2012",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Forty Creek Resolve",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Forty Creek Three Grain 20th Anniversary",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Forty Creek Three Grain Harmony",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Forty Creek Unity",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Forty Creek Victory",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Four Roses (Yellow Label)",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Four Roses Single Barrel Bourbon",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Four Roses Small Batch Bourbon",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Four Roses Small Batch Limited Edition",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Game of Thrones House Baratheon Royal Lochnagar 12 ans",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Game of Thrones House Greyjoy Talisker Select Reserve",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Game of Thrones House Lannister Lagavulin 9yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Game of Thrones House Stark Dalwhinnie Winter\u2019s Frost",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Game of Thrones House Targaryen Cardhu Gold Reserve",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Game of Thrones House Tully Singleton Glendullan Select",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Game of Thrones House Tyrell Clynelish Reserve",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Game of Thrones The Night\u2019s Watch Oban Bay Reserve",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "George Dickel No.12",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "George Dickel Rye",
+    "region": "USA",
+    "type": "Rye"
+  },
+  {
+    "whisky": "George T Stagg",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Gibson's Bold 8yo",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Gibson's Finest 12yo",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Gibson's Finest Rare 18yo",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Gibson's Finest Sterling",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Glen Breton 10yo Rare",
+    "region": "Canada",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glen Breton 14yo",
+    "region": "Canada",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glen Breton 15yo Battle of the Glen",
+    "region": "Canada",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glen Breton 21yo",
+    "region": "Canada",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glen Breton Ice 10yo",
+    "region": "Canada",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glen Breton Ice 12yo",
+    "region": "Canada",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glen Breton Ice 17yo",
+    "region": "Canada",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glen Deveron 10yo (Macduff)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glen Elgin 12yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glen Garioch 12yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glen Garioch 15yo Renaissance Chapter 1",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glen Garioch 15yo Sherry Cask Matured",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glen Garioch 15yo Wine Cask Matured",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glen Garioch 16yo Renaissance Chapter 2",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glen Garioch 17yo Renaissance Chapter 3",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glen Garioch 1991",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glen Garioch 1994",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glen Garioch 1995",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glen Garioch 1997",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glen Garioch 1998 Wine Cask Matured",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glen Garioch 1999 Sherry Cask Matured",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glen Garioch Founder's Reserve",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glen Garioch Virgin Oak",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glen Grant 10yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glen Grant 10yo (G&M)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glen Grant 12yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glen Grant 16yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glen Grant 18yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glen Grant 25yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glen Grant Five Decades",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glen Grant The Major's Reserve",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glen Moray 10yo Chardonnay Cask",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glen Moray 12yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glen Moray 12yo Chenin Blanc",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glen Moray 16yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glen Moray 16yo Chenin Blanc",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glen Moray Classic",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glen Moray Classic Peated",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glen Moray Classic Port Cask finish",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glen Moray Classic Sherry Cask finish",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glen Scotia 12yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glen Scotia 14yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glen Scotia 15yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glen Scotia 18yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glen Scotia 21yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glen Scotia 25yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glen Scotia Double Cask",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glen Scotia Victoriana",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glen Spey 12yo (F&F)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glenburgie 10yo (Gordon & MacPhail)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glencadam 10yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glencadam 12yo Port Wood Finish",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glencadam 14yo Oloroso Sherry Cask Finish",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glencadam 15yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glencadam 21yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glencadam 25yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glencadam 30yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glencadam Origin 1825 (NAS)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glendalough 13yo Single Malt",
+    "region": "Ireland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glendalough 7yo Single Malt",
+    "region": "Ireland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glendalough Double Barrel",
+    "region": "Ireland",
+    "type": "Grain"
+  },
+  {
+    "whisky": "GlenDronach 12yo Original",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "GlenDronach 12yo Sauternes Cask Finish",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "GlenDronach 14yo Sauternes Cask Finish",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "GlenDronach 14yo Virgin Oak",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "GlenDronach 15yo Revival",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "GlenDronach 15yo Tawny Port Finish",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "GlenDronach 18yo Allardice",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "GlenDronach 18yo Marsala Finish",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "GlenDronach 18yo Tawny Port Finish",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "GlenDronach 19yo Madeira Finish",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "GlenDronach 21yo Parliament",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "GlenDronach 8yo The Hielan",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "GlenDronach Cask Strength (all batches)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "GlenDronach Cask Strength (batch 1)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "GlenDronach Cask Strength (batch 2)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "GlenDronach Cask Strength (batch 3)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "GlenDronach Cask Strength (batch 4)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "GlenDronach Cask Strength (batch 5)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "GlenDronach Cask Strength (batch 6)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "GlenDronach Cask Strength (batch 7)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "GlenDronach Peated",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "GlenDronach Peated Port Wood",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "GlenDronach vintage 19yo Single Cask (all vintages)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "GlenDronach vintage 20yo Single Cask (all vintages)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glenfarclas 105",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glenfarclas 10yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glenfarclas 12yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glenfarclas 15yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glenfarclas 17yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glenfarclas 1968-2000 54.2% (OB, Old Stock Reserve, Ceramic)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glenfarclas 21yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glenfarclas 25yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glenfarclas 40yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glenfiddich 12yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glenfiddich 12yo Caoran Reserve",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glenfiddich 14yo Bourbon Barrel Reserve",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glenfiddich 14yo Rich Oak",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glenfiddich 15yo Distillery Edition",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glenfiddich 15yo Solera",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glenfiddich 18yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glenfiddich 1963 Original Malt",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glenfiddich 19yo Age of Discovery (Bourbon Cask)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glenfiddich 19yo Age of Discovery (Madeira Cask)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glenfiddich 21yo Gran Reserva",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glenfiddich 26yo Excellence",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glenfiddich 30yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glenfiddich Cask of Dreams",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glenfiddich Fire & Cane Experimental Series No. 4",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glenfiddich IPA Cask Finish Experimental Series No. 1",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glenfiddich Malt Master's Edition",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glenfiddich Project XX Experimental Series No. 2",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glenfiddich Reserve Cask",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glenfiddich Select Cask",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glenfiddich Snow Phoenix",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glenfiddich Vintage Cask",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glenfiddich Winter Storm 21yo Experimental Series No. 3",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glenglassaugh 26yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glenglassaugh Evolution",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glenglassaugh Octaves Classic",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glenglassaugh Octaves Peated",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glenglassaugh Revival",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glenglassaugh Torfa",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glengoyne 10yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glengoyne 12yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glengoyne 12yo Cask Strength",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glengoyne 15yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glengoyne 17yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glengoyne 18yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glengoyne 21yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glengoyne 25yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glengoyne 40yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glengoyne Cask Strength (all batches)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glengoyne Cask Strength (batch 1)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glengoyne Cask Strength (batch 2)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glengoyne Cask Strength (batch 3)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glengoyne Cask Strength (batch 4)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glengoyne Cask Strength (batch 5)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glengoyne Cask Strength (batch 7)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glengoyne Teapot Dram (all batches)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glenkinchie 12yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glenkinchie Distiller's Edition (all editions)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glenlivet 12yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glenlivet 15yo French Oak",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glenlivet 18yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glenlivet 21yo Archive (all batches)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glenlivet Alpha",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glenlivet Captain's Reserve",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glenlivet Cipher",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glenlivet Founder's Reserve",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glenlivet Nadurra 16yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glenlivet Nadurra Cask Strength (NAS)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glenlivet Nadurra First Fill (White Oak)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glenlivet Nadurra Oloroso",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glenlivet Nadurra Peated Cask Finish",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glenlivet XXV 25yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glenlossie 10yo (F&F)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glenmorangie 10yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glenmorangie 18yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glenmorangie A Midwinter Night\u2019s Dram",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glenmorangie Astar",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glenmorangie Bacalta",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glenmorangie Companta",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glenmorangie Dornoch",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glenmorangie Duthac",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glenmorangie Ealanta",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glenmorangie Lasanta",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glenmorangie Milsean",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glenmorangie Nectar d'Or",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glenmorangie Quinta Ruban",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glenmorangie Signet",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glenmorangie Spios Private Edition No 9",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glenmorangie The Taghta",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glenmorangie The Tarlogan",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glenmorangie The Tayne",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glenmorangie Tusail",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glenrothes 10yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glenrothes 12yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glenrothes 18yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glenrothes 25yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glenrothes Alba Reserve",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glenrothes Bourbon Cask Reserve",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glenrothes Elders' Reserve",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glenrothes Manse Reserve",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glenrothes Minister's Reserve",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glenrothes Peated Cask Reserve",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glenrothes Robur Reserve",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glenrothes Select Reserve",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glenrothes Sherry Cask Reserve",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glenrothes Vintage 1995 (all bottlings)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glenrothes Vintage 1998 (2014)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glenrothes Vintage 2001 (all bottlings)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glenrothes Vintage Reserve (NAS)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glenrothes Whisky Maker's Cut",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glentauchers 1991 18yo (Gordon & MacPhail)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Glenturret 10yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Gooderham & Worts 17yo Little Trinity Three Grain (2017)",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Gooderham & Worts 19yo 49 Wellington (2019)",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Gooderham & Worts Eleven Souls Four Grain (2018)",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Gooderham & Worts Four Grain",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Gouden Carolus Single Malt",
+    "region": "Belgium",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Grand Macnish",
+    "region": "Scotland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Grant's 12yo",
+    "region": "Scotland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Grant's 18yo",
+    "region": "Scotland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Grant's Blended Sherry Cask",
+    "region": "Scotland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Grant's Family Reserve Blended",
+    "region": "Scotland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Green Spot",
+    "region": "Ireland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Green Spot Chateau Leoville Barton",
+    "region": "Ireland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Green Spot Chateau Montelena",
+    "region": "Ireland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Hakushu 10yo",
+    "region": "Japan",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Hakushu 12yo",
+    "region": "Japan",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Hakushu 18yo",
+    "region": "Japan",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Hakushu Distiller's Reserve",
+    "region": "Japan",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Hakushu NAS",
+    "region": "Japan",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Hakushu Sherry Cask",
+    "region": "Japan",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Hakushu Single Malt Heavily Peated",
+    "region": "Japan",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Hankey Bannister 12yo Regency",
+    "region": "Scotland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Hankey Bannister 21yo Partner's Reserve",
+    "region": "Scotland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Hankey Bannister Heritage",
+    "region": "Scotland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Hankey Bannister Original",
+    "region": "Scotland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Hazelburn 12yo (Springbank)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Hazelburn 8yo (Springbank)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Heaven Hill 6yo BiB",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Heaven Hill 7yo BiB",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Heaven Hill Old Syle Bourbon (white label)",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Heaven Hill Select Stock Barrel",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Heaven Hill Trybox Series New Make",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Henry McKenna 10yo Single Barrel BiB",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Henry McKenna Straight Bourbon",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Hibiki 12yo",
+    "region": "Japan",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Hibiki 17yo",
+    "region": "Japan",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Hibiki 21yo",
+    "region": "Japan",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Hibiki Harmony",
+    "region": "Japan",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Hibiki Harmony Master's Select",
+    "region": "Japan",
+    "type": "Blend"
+  },
+  {
+    "whisky": "High Coast (Box) Dalvve",
+    "region": "Sweden",
+    "type": "Malt"
+  },
+  {
+    "whisky": "High Coast (Box) Dalvve Sherry Influence",
+    "region": "Sweden",
+    "type": "Malt"
+  },
+  {
+    "whisky": "High Coast (Box) Early Days (batches 01/02)",
+    "region": "Sweden",
+    "type": "Malt"
+  },
+  {
+    "whisky": "High Coast (Box) Hav",
+    "region": "Sweden",
+    "type": "Malt"
+  },
+  {
+    "whisky": "High Coast (Box) PX - Pedro Xim\u00e9nez Finish",
+    "region": "Sweden",
+    "type": "Malt"
+  },
+  {
+    "whisky": "High Coast (Box) Quercus I Robur",
+    "region": "Sweden",
+    "type": "Malt"
+  },
+  {
+    "whisky": "High Coast (Box) Quercus III Petraea",
+    "region": "Sweden",
+    "type": "Malt"
+  },
+  {
+    "whisky": "High Coast (Box) Quercus IV Mongolica",
+    "region": "Sweden",
+    "type": "Malt"
+  },
+  {
+    "whisky": "High Coast (Box) The 2nd Step Collection 02",
+    "region": "Sweden",
+    "type": "Malt"
+  },
+  {
+    "whisky": "High Coast (Box) The 2nd Step Collection 03",
+    "region": "Sweden",
+    "type": "Malt"
+  },
+  {
+    "whisky": "High Coast (Box) The Festival 2014",
+    "region": "Sweden",
+    "type": "Malt"
+  },
+  {
+    "whisky": "High Coast (Box) The Festival 2016",
+    "region": "Sweden",
+    "type": "Malt"
+  },
+  {
+    "whisky": "High Coast (Box) The Messenger",
+    "region": "Sweden",
+    "type": "Malt"
+  },
+  {
+    "whisky": "High West American Prairie",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "High West Bourye",
+    "region": "USA",
+    "type": "Blend"
+  },
+  {
+    "whisky": "High West Campfire",
+    "region": "USA",
+    "type": "Blend"
+  },
+  {
+    "whisky": "High West Double Rye (all bottlings)",
+    "region": "USA",
+    "type": "Rye"
+  },
+  {
+    "whisky": "High West Double Rye (new recipe, post-2018)",
+    "region": "USA",
+    "type": "Rye"
+  },
+  {
+    "whisky": "High West Double Rye (pre-2018)",
+    "region": "USA",
+    "type": "Rye"
+  },
+  {
+    "whisky": "High West Double Rye Campfire Barrel",
+    "region": "USA",
+    "type": "Rye"
+  },
+  {
+    "whisky": "High West Double Rye Manhattan Barrel",
+    "region": "USA",
+    "type": "Rye"
+  },
+  {
+    "whisky": "High West Midwinter Night\u2019s Dram Rye",
+    "region": "USA",
+    "type": "Rye"
+  },
+  {
+    "whisky": "High West Rendezvous Rye (all bottlings)",
+    "region": "USA",
+    "type": "Rye"
+  },
+  {
+    "whisky": "High West Rendezvous Rye (pre-2018)",
+    "region": "USA",
+    "type": "Rye"
+  },
+  {
+    "whisky": "High West Rocky Mountain Rye 16yo",
+    "region": "USA",
+    "type": "Rye"
+  },
+  {
+    "whisky": "High West Rocky Mountain Rye 21yo",
+    "region": "USA",
+    "type": "Rye"
+  },
+  {
+    "whisky": "High West Son of Bourye",
+    "region": "USA",
+    "type": "Blend"
+  },
+  {
+    "whisky": "High West Yippee Ki-Yay",
+    "region": "USA",
+    "type": "Rye"
+  },
+  {
+    "whisky": "Highland Park 10yo (all reviews)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Highland Park 10yo Viking Scars",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Highland Park 12yo (all reviews)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Highland Park 12yo (reviews 2014-2017)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Highland Park 12yo (reviews pre-2014)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Highland Park 12yo Saint Magnus",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Highland Park 12yo Viking Honour (post-2017)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Highland Park 15yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Highland Park 15yo Fire",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Highland Park 15yo Freya",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Highland Park 15yo Loki",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Highland Park 16yo Odin",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Highland Park 16yo Thor",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Highland Park 17yo Ice",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Highland Park 17yo The Dark",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Highland Park 17yo The Light",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Highland Park 18yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Highland Park 21yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Highland Park 25yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Highland Park 30yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Highland Park 40yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Highland Park Dark Origins",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Highland Park Einar",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Highland Park Full Volume",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Highland Park Harald",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Highland Park Magnus (2017)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Highland Park Sigurd",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Highland Park Svein",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Highland Park Valknut",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Highland Park Valkyrie",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Highland Queen",
+    "region": "Scotland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Highwood Ninety 5yo",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Highwood Ninety Rye 20yo",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Hiram Walker Special Old Rye",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Ichiro's Malt & Grain World Blended",
+    "region": "Japan",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Ichiro's Malt Chichibu On The Way",
+    "region": "Japan",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Ichiro's Malt Chichibu The First",
+    "region": "Japan",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Ichiro's Malt Chichibu The Floor Malted",
+    "region": "Japan",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Ichiro's Malt Chichibu The Peated",
+    "region": "Japan",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Ichiro's Malt Double Distilleries",
+    "region": "Japan",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Ichiro's Malt Mizunara Wood Reserve (MWR)",
+    "region": "Japan",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Ichiro's Malt The Joker",
+    "region": "Japan",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Ileach Peated Islay",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Ileach Peated Islay Cask Strength",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Inchgower 14yo (F&F)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Islay Mist 8yo",
+    "region": "Scotland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "J&B Rare",
+    "region": "Scotland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "J.P. Wiser's 15yo",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "J.P. Wiser's 18yo",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "J.P. Wiser's 22yo Port Cask Finished",
+    "region": "Canada",
+    "type": "Rye"
+  },
+  {
+    "whisky": "J.P. Wiser's 23yo Cask Strength Blend (2019)",
+    "region": "Canada",
+    "type": "Rye"
+  },
+  {
+    "whisky": "J.P. Wiser's 35yo (2017)",
+    "region": "Canada",
+    "type": "Rye"
+  },
+  {
+    "whisky": "J.P. Wiser's 35yo (2018)",
+    "region": "Canada",
+    "type": "Rye"
+  },
+  {
+    "whisky": "J.P. Wiser's Alumni Series Darryl Sitter 10yo",
+    "region": "Canada",
+    "type": "Rye"
+  },
+  {
+    "whisky": "J.P. Wiser's Alumni Series Dave Keon 14yo",
+    "region": "Canada",
+    "type": "Rye"
+  },
+  {
+    "whisky": "J.P. Wiser's Alumni Series Guy Lafleur 10yo",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "J.P. Wiser's Alumni Series Lanny MacDonald 9yo",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "J.P. Wiser's Alumni Series Larry Robinson 6yo",
+    "region": "Canada",
+    "type": "Rye"
+  },
+  {
+    "whisky": "J.P. Wiser's Alumni Series Mark Messier 11yo",
+    "region": "Canada",
+    "type": "Rye"
+  },
+  {
+    "whisky": "J.P. Wiser's Alumni Series Martin Brodeur 12yo",
+    "region": "Canada",
+    "type": "Rye"
+  },
+  {
+    "whisky": "J.P. Wiser's Alumni Series Paul Coffey 7yo",
+    "region": "Canada",
+    "type": "Rye"
+  },
+  {
+    "whisky": "J.P. Wiser's Alumni Series Wendel Clark 11yo",
+    "region": "Canada",
+    "type": "Rye"
+  },
+  {
+    "whisky": "J.P. Wiser's Alumni Series Yvan Cournoyer 12yo",
+    "region": "Canada",
+    "type": "Rye"
+  },
+  {
+    "whisky": "J.P. Wiser's Canada 2018",
+    "region": "Canada",
+    "type": "Rye"
+  },
+  {
+    "whisky": "J.P. Wiser's Deluxe",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "J.P. Wiser's Dissertation",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "J.P. Wiser's Double Still Rye",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "J.P. Wiser's Hopped",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "J.P. Wiser's Last Barrels",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "J.P. Wiser's Legacy",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "J.P. Wiser's One Fifty",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "J.P. Wiser's Red Letter 15yo",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "J.P. Wiser's Rye",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "J.P. Wiser's Seasoned Oak 19yo",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "J.P. Wiser's Seven Rebels",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "J.P. Wiser's Small Batch",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "J.P. Wiser's Special Blend",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "J.P. Wiser's Triple Barrel Rye",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "J.P. Wiser's Union 52",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "J.P. Wiser's Wheatfield Gold",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Jack Daniel's 150th Anniversary",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Jack Daniel's Gentleman Jack",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Jack Daniel's Master Distiller (all series)",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Jack Daniel's No. 27 Gold Double Barrelled",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Jack Daniel's Old No. 7",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Jack Daniel's Rested Tennessee Rye (Batch 1/2)",
+    "region": "USA",
+    "type": "Rye"
+  },
+  {
+    "whisky": "Jack Daniel's Single Barrel",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Jack Daniel's Single Barrel Barrel Proof",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Jack Daniel's Single Barrel Rye",
+    "region": "USA",
+    "type": "Rye"
+  },
+  {
+    "whisky": "Jameson 12yo Special Reserve",
+    "region": "Ireland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Jameson 18yo Limited Reserve",
+    "region": "Ireland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Jameson Blender's Dog Irish Whiskey",
+    "region": "Ireland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Jameson Bold Irish Whiskey",
+    "region": "Ireland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Jameson Caskmates Stout Edition",
+    "region": "Ireland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Jameson Cooper's Croze Irish Whiskey",
+    "region": "Ireland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Jameson Crested Irish Whiskey",
+    "region": "Ireland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Jameson Distiller's Safe Irish Whiskey",
+    "region": "Ireland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Jameson Gold Reserve",
+    "region": "Ireland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Jameson Irish Whiskey",
+    "region": "Ireland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Jameson Lively Irish Whiskey",
+    "region": "Ireland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Jameson Round Irish Whiskey",
+    "region": "Ireland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Jameson Select Reserve (Black Barrel)",
+    "region": "Ireland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Jameson Signature Reserve",
+    "region": "Ireland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Jefferson's 18yo Presidential Select",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Jefferson's Ocean",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Jefferson's Ocean Aged at Sea",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Jefferson's Reserve Very Old Kentucky Straight Bourbon",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Jefferson's Straight Rye 10yo",
+    "region": "USA",
+    "type": "Rye"
+  },
+  {
+    "whisky": "Jefferson's Very Small Batch Bourbon",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Jim Beam 12yo Signature Craft",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Jim Beam Black Label",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Jim Beam Bonded",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Jim Beam Devil's Cut",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Jim Beam Distillers Masterpiece PX Sherry Cask Finish",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Jim Beam Distillers Series",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Jim Beam Double Oak",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Jim Beam Pre-Prohibition Rye",
+    "region": "USA",
+    "type": "Rye"
+  },
+  {
+    "whisky": "Jim Beam Red Stag (Black Cherry)",
+    "region": "USA",
+    "type": "Flavoured"
+  },
+  {
+    "whisky": "Jim Beam Rye",
+    "region": "USA",
+    "type": "Rye"
+  },
+  {
+    "whisky": "Jim Beam Single Barrel",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Jim Beam White Label",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "John Barr Reserve (Black Label)",
+    "region": "Scotland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Johnnie Walker 10yo Rye Cask Finish",
+    "region": "Scotland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Johnnie Walker 12yo Black Label",
+    "region": "Scotland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Johnnie Walker 15yo Green Label",
+    "region": "Scotland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Johnnie Walker Blue Label",
+    "region": "Scotland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Johnnie Walker Double Black",
+    "region": "Scotland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Johnnie Walker Explorer\u2019s Club The Adventurer",
+    "region": "Scotland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Johnnie Walker Explorer\u2019s Club The Gold Route",
+    "region": "Scotland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Johnnie Walker Explorer\u2019s Club The Royal Route",
+    "region": "Scotland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Johnnie Walker Explorer\u2019s Club The Spice Road",
+    "region": "Scotland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Johnnie Walker Gold Label Reserve",
+    "region": "Scotland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Johnnie Walker Platinum Label",
+    "region": "Scotland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Johnnie Walker Red Label",
+    "region": "Scotland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Johnnie Walker White Walker (Game of Thrones)",
+    "region": "Scotland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Jura 10yo Origin",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Jura 12yo Elixir",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Jura 16yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Jura 16yo Diurach's Own",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Jura 18yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Jura 21yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Jura 21yo 200th Anniversary",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Jura Brooklyn",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Jura Prophecy",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Jura Seven Wood",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Jura Superstition",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Jura Turas Mara",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Kakubin Yellow Label (Suntory Whisky)",
+    "region": "Japan",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Kanosuke New Born 2018 8mo",
+    "region": "Japan",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Karuizawa 1990 Sherry Butt",
+    "region": "Japan",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Karuizawa Asama Vintages 1999-2000",
+    "region": "Japan",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Kavalan Brandy Oak",
+    "region": "Taiwan",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Kavalan Concertmaster Port Cask",
+    "region": "Taiwan",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Kavalan Distillery Reserve Peaty Cask",
+    "region": "Taiwan",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Kavalan Distillery Reserve Rum Cask",
+    "region": "Taiwan",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Kavalan ex-Bourbon Oak",
+    "region": "Taiwan",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Kavalan King Car Conductor",
+    "region": "Taiwan",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Kavalan Podium",
+    "region": "Taiwan",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Kavalan Sherry Oak",
+    "region": "Taiwan",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Kavalan Single Malt Whisky",
+    "region": "Taiwan",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Kavalan Solist Amontillado Cask",
+    "region": "Taiwan",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Kavalan Solist Ex-Bourbon",
+    "region": "Taiwan",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Kavalan Solist Fino Sherry Cask",
+    "region": "Taiwan",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Kavalan Solist Manzanilla Cask",
+    "region": "Taiwan",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Kavalan Solist Moscatel Cask",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Kavalan Solist Oloroso Sherry Cask",
+    "region": "Taiwan",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Kavalan Solist Peaty Cask",
+    "region": "Taiwan",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Kavalan Solist Port Cask",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Kavalan Solist PX Cask",
+    "region": "Taiwan",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Kavalan Solist Rum Cask",
+    "region": "Taiwan",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Kavalan Solist Sherry Cask",
+    "region": "Taiwan",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Kavalan Solist Vinho Barrique",
+    "region": "Taiwan",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Kilbeggan 8yo Single Grain (Greenore)",
+    "region": "Ireland",
+    "type": "Grain"
+  },
+  {
+    "whisky": "Kilbeggan Irish Reserve Malt Whiskey",
+    "region": "Ireland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Kilchoman 100% Islay (all editions)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Kilchoman 2007 Vintage",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Kilchoman 2008 Vintage",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Kilchoman 2009 Vintage",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Kilchoman Bourbon Single Cask",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Kilchoman Coull Point",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Kilchoman Loch Gorm",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Kilchoman Machir Bay (all vintages)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Kilchoman Madeira Cask Matured",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Kilchoman Original Cask Strength",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Kilchoman Port Cask Matured",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Kilchoman PX Sherry Finish",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Kilchoman Sanaig",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Kilchoman Sauternes Cask Matured",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Kilchoman Sherry Single Cask",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Kilchoman Spring 2011 Release",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Kilchoman Winter 2010 Release",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Kilkerran 12yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Kilkerran 8yo Cask Strength",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Kilkerran Work in Progress",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Kilkerran Work in Progress Bourbon Wood",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Kilkerran Work in Progress Sherry Wood",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Kininvie 17yo (all batches)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Kininvie 23yo (all batches)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Kirin 18yo (Fuji Sanroku)",
+    "region": "Japan",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Kirin 50% Blend (Fuji Gotemba)",
+    "region": "Japan",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Knappogue Castle 12yo",
+    "region": "Ireland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Knappogue Castle 14yo Twin Wood",
+    "region": "Ireland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Knappogue Castle 16yo Twin Wood",
+    "region": "Ireland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Knappogue Castle Vintage",
+    "region": "Ireland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Knob Creek Single Barrel Reserve Bourbon",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Knob Creek Small Batch 9yo Bourbon",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Knob Creek Small Batch Straight Rye Whiskey",
+    "region": "USA",
+    "type": "Rye"
+  },
+  {
+    "whisky": "Knockando 12yo (All Vintages)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Koval Single Barrel Bourbon",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Koval Single Barrel Four Grain",
+    "region": "USA",
+    "type": "Grain"
+  },
+  {
+    "whisky": "Koval Single Barrel Millet Whiskey",
+    "region": "USA",
+    "type": "Grain"
+  },
+  {
+    "whisky": "Koval Single Barrel Rye",
+    "region": "USA",
+    "type": "Rye"
+  },
+  {
+    "whisky": "Lagavulin 11yo Offerman Edition",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Lagavulin 12yo Cask Strength",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Lagavulin 16yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Lagavulin 8yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Lagavulin Distiller's Edition (All Vintages)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Laphroaig 10yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Laphroaig 10yo Cask Strength (all batches)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Laphroaig 15yo (200th Anniversary)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Laphroaig 18yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Laphroaig 21yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Laphroaig 25yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Laphroaig 27yo 57.4% 1980-2007 (OB, 5 Oloroso Casks, 972 Bts)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Laphroaig An Cuan Mor",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Laphroaig Cairdeas 2013 Port Wood",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Laphroaig Cairdeas 2014 Amontillado",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Laphroaig Cairdeas 2015",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Laphroaig Cairdeas 2016 Madeira",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Laphroaig Cairdeas 2017",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Laphroaig Cairdeas 2018 Fino",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Laphroaig Cairdeas 2019 Triple Wood Cask Strength",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Laphroaig Cairdeas 2020 Port & Wine Casks",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Laphroaig Lore",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Laphroaig PX Triple Matured",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Laphroaig QA Cask",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Laphroaig Quarter Cask",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Laphroaig Select",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Laphroaig Triple Wood",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Larceny Small Batch Bourbon",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Last Mountain Distillery Single Cask 100% Wheat Whisky",
+    "region": "Canada",
+    "type": "Rye"
+  },
+  {
+    "whisky": "Last Mountain Distillery Single Cask Rye Whisky",
+    "region": "Canada",
+    "type": "Rye"
+  },
+  {
+    "whisky": "Ledaig 10yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Ledaig 13yo Amontillado Cask Finish",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Ledaig 18yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Ledaig 1996",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Ledaig 19yo 1998 Pedro Xim\u00e9nez Finish",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Ledaig 19yo Marsala Finish",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Ledaig 42yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Ledaig 42yo Dusgadh",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Legent Bourbon",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Linkwood 12yo (F&F)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Lismore 21yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Little Book (all Chapters)",
+    "region": "USA",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Little Book Chapter 1 The Easy",
+    "region": "USA",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Little Book Chapter 2 Noe Simple Task",
+    "region": "USA",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Little Book Chapter 3 The Road Home",
+    "region": "USA",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Loch Lomond NAS",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Lohin McKinnon Barley and Rye Lightly Peated",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Lohin McKinnon Choclolate Malt",
+    "region": "Canada",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Lohin McKinnon Peated",
+    "region": "Canada",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Lohin McKinnon Single Malt",
+    "region": "Canada",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Lohin McKinnon Wine Barrel Finished (Black Sage)",
+    "region": "Canada",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Longmorn 15yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Longmorn 16yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Longmorn Distiller's Choice",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Longrow 10yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Longrow 10yo Tokaji Finish",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Longrow 18yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Longrow 7yo Gaja Barolo Finish",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Longrow CV",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Longrow Peated",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Longrow Red 11yo Australian Shiraz",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Longrow Red 11yo Cabernet Sauvignon",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Longrow Red 11yo Port Cask",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Longrow Red 12yo Pinot Noir Finish",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Longrow Red 14yo Burgundy Wood",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Lot 40",
+    "region": "Canada",
+    "type": "Rye"
+  },
+  {
+    "whisky": "Lot 40 Cask Strength (Single Cask)",
+    "region": "Canada",
+    "type": "Rye"
+  },
+  {
+    "whisky": "Lot 40 Cask Strength 11yo (2018)",
+    "region": "Canada",
+    "type": "Rye"
+  },
+  {
+    "whisky": "Lot 40 Cask Strength 12yo (2017)",
+    "region": "Canada",
+    "type": "Rye"
+  },
+  {
+    "whisky": "Lot 40 Cask Strength Third Edition (2019)",
+    "region": "Canada",
+    "type": "Rye"
+  },
+  {
+    "whisky": "Lot 40 Dark Oak",
+    "region": "Canada",
+    "type": "Rye"
+  },
+  {
+    "whisky": "Macallan 10yo Fine Oak",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Macallan 10yo Full Proof 57% 1980 (OB, Giovinetti & Figli)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Macallan 10yo Sherry Oak",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Macallan 10yo Sherry Oak Cask Strength",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Macallan 12yo Double Cask",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Macallan 12yo Fine Oak",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Macallan 12yo Sherry Oak",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Macallan 15yo Fine Oak",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Macallan 17yo Fine Oak",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Macallan 18yo Fine Oak",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Macallan 18yo Sherry Oak",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Macallan 21yo Fine Oak",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Macallan 25yo Fine Oak",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Macallan 25yo Sherry Oak",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Macallan 30yo Fine Oak",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Macallan Amber",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Macallan Cask Strength",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Macallan Classic Cut (all editions)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Macallan Edition No. 1",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Macallan Edition No. 2",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Macallan Edition No. 3",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Macallan Edition No. 4",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Macallan Edition No. 5",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Macallan Edition No. 6",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Macallan Gold",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Macallan Gold Double Cask",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Macallan Rare Cask (all batches)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Macallan Reflexion",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Macallan Ruby",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Macallan Select Oak",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Macallan Sienna",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Macallan Whisky Maker's Edition",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Mackinlay's Shackleton Blended Malt",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Mackinlay's Shackleton Rare Old Highland Malt (both limited editions)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Mackinlay's Shackleton Rare Old Highland Malt Discovery edition",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Mackinlay's Shackleton Rare Old Highland Malt Journey edition",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Mackmyra Blomstertid",
+    "region": "Sweden",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Mackmyra Iskristall",
+    "region": "Sweden",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Mackmyra Mack",
+    "region": "Sweden",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Mackmyra Midnattssol",
+    "region": "Sweden",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Mackmyra Midvinter",
+    "region": "Sweden",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Mackmyra Moment Gl\u00f6d",
+    "region": "Sweden",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Mackmyra Moment Jakt",
+    "region": "Sweden",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Mackmyra Moment Jord",
+    "region": "Sweden",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Mackmyra Moment K\u00e4lla",
+    "region": "Sweden",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Mackmyra Moment Korsbar",
+    "region": "Sweden",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Mackmyra Moment Malstr\u00f6m (Maelstrom)",
+    "region": "Sweden",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Mackmyra Moment Rimfrost",
+    "region": "Sweden",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Mackmyra Moment Solsken",
+    "region": "Sweden",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Mackmyra Moment Urberg",
+    "region": "Sweden",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Mackmyra Preludium 03",
+    "region": "Sweden",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Mackmyra Reserve Single Cask (various casks)",
+    "region": "Sweden",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Mackmyra Skordetid",
+    "region": "Sweden",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Mackmyra Special 01",
+    "region": "Sweden",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Mackmyra Special 02",
+    "region": "Sweden",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Mackmyra Special 03",
+    "region": "Sweden",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Mackmyra Special 04",
+    "region": "Sweden",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Mackmyra Special 05",
+    "region": "Sweden",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Mackmyra Special 07",
+    "region": "Sweden",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Mackmyra Special 08",
+    "region": "Sweden",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Mackmyra Special 09",
+    "region": "Sweden",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Mackmyra Special 10",
+    "region": "Sweden",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Mackmyra Svensk Ek",
+    "region": "Sweden",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Mackmyra Svensk R\u00f6k",
+    "region": "Sweden",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Mackmyra Sweden Rock (2015)",
+    "region": "Sweden",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Mackmyra Ten Years 10yo",
+    "region": "Sweden",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Mackmyra The First Edition (Den F\u00f6rsta Utg\u00e5van)",
+    "region": "Sweden",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Mackmyra The Swedish Whisky (Brukswhisky)",
+    "region": "Sweden",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Mackmyra Vinterdrom",
+    "region": "Sweden",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Mackmyra Vit Hund",
+    "region": "Sweden",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Maker's Mark",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Maker's Mark 46",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Maker's Mark 101 Proof",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Maker's Mark Cask Strength",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Mannochmore 12yo (F&F)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Mars Iwai Tradition",
+    "region": "Japan",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Mars Kogamatake The Revival 2011",
+    "region": "Japan",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Mars Maltage Cosmo",
+    "region": "Japan",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Masterson's Straight Barley 10yo",
+    "region": "Canada",
+    "type": "Barley"
+  },
+  {
+    "whisky": "Masterson's Straight Rye 10yo",
+    "region": "Canada",
+    "type": "Rye"
+  },
+  {
+    "whisky": "Masterson's Straight Wheat 12yo",
+    "region": "Canada",
+    "type": "Wheat"
+  },
+  {
+    "whisky": "Matsui Mizunara Cask",
+    "region": "Japan",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Matsui Sakura Cask",
+    "region": "Japan",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Matsui The Peated",
+    "region": "Japan",
+    "type": "Malt"
+  },
+  {
+    "whisky": "McClelland's Highland Single Malt",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "McClelland's Islay Single Malt",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "McClelland's Lowland Single Malt",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "McClelland's Speyside Single Malt",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Mellow Corn BiB",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Michter's 10yo Single Barrel Bourbon",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Michter's 10yo Single Barrel Rye",
+    "region": "USA",
+    "type": "Rye"
+  },
+  {
+    "whisky": "Michter's 20yo Single Barrel Bourbon",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Michter's Barrel Strength Rye",
+    "region": "USA",
+    "type": "Rye"
+  },
+  {
+    "whisky": "Michter's Single Barrel Straight Rye",
+    "region": "USA",
+    "type": "Rye"
+  },
+  {
+    "whisky": "Michter's Small Batch US*1 Bourbon",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Michter's Sour Mash",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Michter's Toasted Barrel",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Midleton Barry Crockett Legacy",
+    "region": "Ireland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Midleton Dair Ghaelach",
+    "region": "Ireland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Midleton Very Rare (all vintages)",
+    "region": "Ireland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Midleton Very Rare 2015",
+    "region": "Ireland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Midleton Very Rare 2016",
+    "region": "Ireland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Midleton Very Rare 2017",
+    "region": "Ireland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Midleton Very Rare 2021",
+    "region": "Ireland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Millstone 100 Rye",
+    "region": "Netherlands",
+    "type": "Rye"
+  },
+  {
+    "whisky": "Millstone 12yo Sherry Cask",
+    "region": "Netherlands",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Millstone 8yo French Oak",
+    "region": "Netherlands",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Milstone Peated",
+    "region": "Netherlands",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Miltonduff 10yo (F&F)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Mister Sam Tribute Whisky",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Monkey Shoulder",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Mortlach 12yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Mortlach 15yo (Gordon & MacPhail)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Mortlach 16yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Mortlach 16yo (F&F)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Mortlach 18yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Mortlach Rare Old",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Mortlach Special Strength",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Nantou (Omar) Yushan Blended Malt",
+    "region": "Taiwan",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Nantou (Omar) Yushan Bourbon Cask",
+    "region": "Taiwan",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Nantou (Omar) Yushan Sherry Cask",
+    "region": "Taiwan",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Nikka 12yo Premium Blended",
+    "region": "Japan",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Nikka All Malt",
+    "region": "Japan",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Nikka Blended",
+    "region": "Japan",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Nikka Coffey Grain",
+    "region": "Japan",
+    "type": "Grain"
+  },
+  {
+    "whisky": "Nikka Coffey Malt",
+    "region": "Japan",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Nikka Days",
+    "region": "Japan",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Nikka From the Barrel",
+    "region": "Japan",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Nikka Gold & Gold",
+    "region": "Japan",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Nikka Miyagikyo 10yo",
+    "region": "Japan",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Nikka Miyagikyo 12yo",
+    "region": "Japan",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Nikka Miyagikyo 15yo",
+    "region": "Japan",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Nikka Miyagikyo NAS",
+    "region": "Japan",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Nikka Pure Malt Black",
+    "region": "Japan",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Nikka Pure Malt Red",
+    "region": "Japan",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Nikka Pure Malt White",
+    "region": "Japan",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Nikka Single Cask Coffey Malt 12yo",
+    "region": "Japan",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Nikka Super Nikka",
+    "region": "Japan",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Nikka Taketsuru 12yo",
+    "region": "Japan",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Nikka Taketsuru 17yo",
+    "region": "Japan",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Nikka Taketsuru 21yo",
+    "region": "Japan",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Nikka Taketsuru NAS",
+    "region": "Japan",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Nikka Yoichi 10yo",
+    "region": "Japan",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Nikka Yoichi 12yo",
+    "region": "Japan",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Nikka Yoichi 15yo",
+    "region": "Japan",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Nikka Yoichi NAS",
+    "region": "Japan",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Oban 14yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Oban 18yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Oban 21yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Oban Distillers Edition (all vintages)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Oban Little Bay",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Ohishi Brandy Cask",
+    "region": "Japan",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Ohishi Sherry Cask",
+    "region": "Japan",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Ohishi Sherry Single Cask",
+    "region": "Japan",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Okanagan Spirits Laird of Fintry (all editions)",
+    "region": "Canada",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Old Ballantruan Peated (Toumintoul)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Old Fitzgerald BiB",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Old Fitzgerald Kentucky Straight Bourbon",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Old Forester",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Old Forester 1870 Original Batch",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Old Forester 1897 BiB",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Old Forester 1920 Prohibition Style",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Old Forester Birthday (all editions)",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Old Forester Signature (100 Proof)",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Old Forester Statesman",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Old Grand-Dad Bourbon (80/86 Proof)",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Old Grand-Dad Bourbon 100 BiB",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Old Grand-Dad Bourbon 114",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Old Overholt",
+    "region": "USA",
+    "type": "Rye"
+  },
+  {
+    "whisky": "Old Overholt Bonded",
+    "region": "USA",
+    "type": "Rye"
+  },
+  {
+    "whisky": "Old Pulteney 12yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Old Pulteney 15yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Old Pulteney 17yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Old Pulteney 18yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Old Pulteney 21yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Old Pulteney 25yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Old Pulteney Huddart",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Old Pulteney Navigator",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Old Rip Van Winkle 10yo",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Old Weller Antique 107",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Orphan Barrel Barterhouse Bourbon 20yo",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Orphan Barrel Entrapment Canadian 25yo",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "P&M Blended Whisky",
+    "region": "France",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Pappy Van Winkle Family Reserve Bourbon 15yo",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Pappy Van Winkle Family Reserve Bourbon 20yo",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Pappy Van Winkle Family Reserve Bourbon 23yo",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Parker\u2019s Heritage 10th 24yo Kentucky Straight Bourbon",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Parker\u2019s Heritage 11th 2017 11yo",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Parker\u2019s Heritage 12th 2018 Finished in Orange Cura\u00e7ao Barrels",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Parker\u2019s Heritage 13th 2019 8yo Heavy Char Barrels Rye",
+    "region": "USA",
+    "type": "Rye"
+  },
+  {
+    "whisky": "Parker\u2019s Heritage 14th 2020 10yo Heavy Char Bourbon",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Parker\u2019s Heritage 1st",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Parker\u2019s Heritage 2nd 27yo Kentucky Straight Boubon",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Parker\u2019s Heritage 4th 10yo Wheated Mash Bill Bourbon",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Parker\u2019s Heritage 5th 10yo Cognac Barrel Finished",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Parker\u2019s Heritage 6th Blend of Mashbills",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Parker\u2019s Heritage 7th 10yo Promise of Hope",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Parker\u2019s Heritage 8th 13yo Wheat Whiskey",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Parker\u2019s Heritage 9th 8yo Malt Whiskey",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Passport Blended Scotch",
+    "region": "Scotland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Paul John Bold",
+    "region": "India",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Paul John Brilliance",
+    "region": "India",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Paul John Classic Select Cask",
+    "region": "India",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Paul John Edited",
+    "region": "India",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Paul John Peated Select Cask",
+    "region": "India",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Paul John Single Cask",
+    "region": "India",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Penderyn Aur Cymru",
+    "region": "Wales",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Penderyn Celt",
+    "region": "Wales",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Penderyn Legend",
+    "region": "Wales",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Penderyn Madeira",
+    "region": "Wales",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Penderyn Myth",
+    "region": "Wales",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Penderyn Peated",
+    "region": "Wales",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Penderyn Portwood",
+    "region": "Wales",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Penderyn Sherrywood",
+    "region": "Wales",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Pendleton (Let'er Buck)",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Pendleton 1910",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Pendleton Midnight",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Pig's Nose 5yo Blended Malt",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Pike Creek 10yo Port-finished",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Pike Creek 10yo Rum-finished",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Pike Creek 15yo Cabernet Sauvingon Finish",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Pike Creek 21yo Double Barrel European Oak Cask (2018)",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Pike Creek 21yo Double Barrel Speyside Cask Finish (2017)",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Pike Creek 21yo Finished in Oloroso Sherry Casks (2019)",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Pikesville Straight Rye",
+    "region": "USA",
+    "type": "Rye"
+  },
+  {
+    "whisky": "Port Ellen (all OB releases)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Port Ellen 10th release 31yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Port Ellen 11th release 32yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Port Ellen 12th release 32yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Port Ellen 14th release 35yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Port Ellen 15th release 32yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Port Ellen 16th release 37yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Port Ellen 17th release 37yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Port Ellen 2nd release 24yo 54.3%",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Port Ellen 2nd release 24yo 59.35%",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Port Ellen 3rd release 24yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Port Ellen 4th release 25yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Port Ellen 6th release 27yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Port Ellen 7th release 28yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Port Ellen 8th release 29yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Port Ellen 9th release 30yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Port Ellen Douglas Laing McGibbon's Provenance John Milroy 23yo (all editions)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Port Ellen Douglas Laing McGibbon's Provenance John Milroy 23yo 1978-2001",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Port Ellen Douglas Laing McGibbon's Provenance John Milroy 23yo 1982-2005",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Potter's Special Old",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Powers 12yo John's Lane",
+    "region": "Ireland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Powers 12yo Reserve",
+    "region": "Ireland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Powers Gold Label",
+    "region": "Ireland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Powers Signature Release",
+    "region": "Ireland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Powers Three Swallow",
+    "region": "Ireland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Prichard\u2019s Rye",
+    "region": "USA",
+    "type": "Rye"
+  },
+  {
+    "whisky": "Proof Whisky",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Rebel Yell Kentucky Bourbon",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Red Spot 15yo",
+    "region": "Ireland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Redbreast 12yo",
+    "region": "Ireland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Redbreast 12yo Cask Strength",
+    "region": "Ireland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Redbreast 15yo",
+    "region": "Ireland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Redbreast 21yo",
+    "region": "Ireland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Redbreast All Sherry Single Cask 1999",
+    "region": "Ireland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Redbreast Lustau Edition",
+    "region": "Ireland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Redbreast Mano a L\u00e1mh",
+    "region": "Ireland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Redemption High Rye Bourbon",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Rich and Rare",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Rich and Rare Reserve",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Rittenhouse Rye 100 Proof",
+    "region": "USA",
+    "type": "Rye"
+  },
+  {
+    "whisky": "Royal Brackla 12yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Royal Brackla 16yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Royal Brackla 21yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Royal Canadian Small Batch",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Royal Lochnagar 12yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Russell's Reserve 6yo Rye",
+    "region": "USA",
+    "type": "Rye"
+  },
+  {
+    "whisky": "Russell's Reserve Single Barrel",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Russell's Reserve Small Batch 10yo Bourbon",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Santis Alpstein (all editions)",
+    "region": "Switzerland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Santis Cask Strength Peated",
+    "region": "Switzerland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Santis Edition Dreifaltigkeit",
+    "region": "Switzerland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Santis Edition S\u00e4ntis",
+    "region": "Switzerland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Santis Edition Sigel",
+    "region": "Switzerland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Sazerac 18yo",
+    "region": "USA",
+    "type": "Rye"
+  },
+  {
+    "whisky": "Sazerac Straight Rye",
+    "region": "USA",
+    "type": "Rye"
+  },
+  {
+    "whisky": "Scallywag",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Scallywag 13yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Scallywag Cask Strength (all batches)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Scapa 16yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Scapa Skiren",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Schenley Golden Wedding",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Seagram's Canadian 83",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Seagram's VO",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Sheep Dip 1999 Amoroso Blended Malt",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Sheep Dip Blended Malt",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Sheep Dip Old Hebridean 1990 Blended Malt",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Shelter Point Artisanal Cask Strength Whisky",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Shelter Point Artisanal Single Malt Whisky",
+    "region": "Canada",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Shelter Point Classic Single Cask (KWM) Single Malt Whisky",
+    "region": "Canada",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Shelter Point French Oak Double Barreled",
+    "region": "Canada",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Shelter Point Montfort Lot 141 Reserve",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Shelter Point Single Cask Rye",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Silk Tassel",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Singleton of Dufftown 12yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Singleton of Dufftown 15yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Singleton of Dufftown 18yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Singleton of Dufftown Spey Cascade",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Singleton of Dufftown Tailfire",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Singleton of Dufftown Unit\u00e9",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Singleton of Glen Ord 12yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Singleton of Glen Ord 15yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Singleton of Glen Ord 18yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Singleton of Glen Ord Signature",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Singleton of Glendullan 12yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Singleton of Glendullan 15yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Singleton of Glendullan 18yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Smogen 8yo (4,8-10/2011)",
+    "region": "Sweden",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Smogen Prim\u00f6r",
+    "region": "Sweden",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Smogen Sherry Project 1:1",
+    "region": "Sweden",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Smogen Sherry Project 1:2",
+    "region": "Sweden",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Smogen Sherry Project 1:3",
+    "region": "Sweden",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Smogen Sherry Project 1:4",
+    "region": "Sweden",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Smogen Single Cask (all editions)",
+    "region": "Sweden",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Smogen Single Cask 4yo 20/2011",
+    "region": "Sweden",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Smogen Single Cask 4yo 7/2011",
+    "region": "Sweden",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Smooth Ambler Contradiction Bourbon",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Smooth Ambler Old Scout 10yo Bourbon",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Smooth Ambler Old Scout 7yo Bourbon",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Smooth Ambler Old Scout 7yo Rye",
+    "region": "USA",
+    "type": "Rye"
+  },
+  {
+    "whisky": "Smooth Ambler Old Scout Single Barrel Bourbon",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Smooth Ambler Old Scout Single Barrel Rye",
+    "region": "USA",
+    "type": "Rye"
+  },
+  {
+    "whisky": "Smooth Ambler Old Scout Yearling Bourbon",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Speyburn 10yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Speyside 10yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Speyside 12yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Spirit of Hven Sankt Claus",
+    "region": "Sweden",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Spirit of Hven Seven Stars No. 1 Dubhe",
+    "region": "Sweden",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Spirit of Hven Seven Stars No. 2 Merak",
+    "region": "Sweden",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Spirit of Hven Seven Stars No. 3 Phecda",
+    "region": "Sweden",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Spirit of Hven Seven Stars No. 5 Alioth",
+    "region": "Sweden",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Spirit of Hven Tycho\u2019s Star",
+    "region": "Sweden",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Spirit of Hven Urania",
+    "region": "Sweden",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Springbank 10yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Springbank 11yo Local Barley",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Springbank 12yo Cask Strength",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Springbank 12yo Green",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Springbank 13yo Green",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Springbank 15yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Springbank 16yo Local Barley",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Springbank 18yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Springbank 21yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Springbank CV",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "St George's Chapter 6 (unpeated)",
+    "region": "England",
+    "type": "Malt"
+  },
+  {
+    "whisky": "St George's Chapter 9 (peated)",
+    "region": "England",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Stagg Jr (all batches)",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Stagg Jr (batches 1-2)",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Stagg Jr (batches 3+)",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Stagg Jr batch 1 (134.4 proof)",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Stagg Jr batch 10 (126.4 proof)",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Stagg Jr batch 11 (127.9 proof)",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Stagg Jr batch 2 (128.7 proof)",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Stagg Jr batch 3 (132.1 proof)",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Stagg Jr batch 4 (132.2 proof)",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Stagg Jr batch 5 (129.7 proof)",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Stagg Jr batch 7 (129.5 proof)",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Stagg Jr batch 9 (116.8 proof)",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Stagg Jr batch 9 (131.9 proof)",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Stalk & Barrel 11+1 Canadian whisky",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Stalk & Barrel Blue Blend",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Stalk & Barrel Red Blend",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Stalk & Barrel Rye",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Stalk & Barrel Rye (Cask Strength)",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Stalk & Barrel Single Malt (All Casks)",
+    "region": "Canada",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Storas 21yo Rare Cask Reserves Blended",
+    "region": "Scotland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Stranahan's Colorado Whiskey",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Strathisla 12yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Strathmill 12yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Strathmill 25yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Stronachie 10yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Stronachie 12yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Stronachie 18yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Sullivans Cove American Oak",
+    "region": "Tasmania",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Sullivans Cove Bourbon Cask Strength",
+    "region": "Tasmania",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Sullivans Cove Double Cask",
+    "region": "Tasmania",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Sullivans Cove French Oak",
+    "region": "Tasmania",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Sullivans Cove Port Cask Strength",
+    "region": "Tasmania",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Suntory Old Whisky",
+    "region": "Japan",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Suntory The Chita Single Grain",
+    "region": "Japan",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Suntory Toki",
+    "region": "Japan",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Swiss Highland Classic Single Malt",
+    "region": "Switzerland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Talisker 10yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Talisker 15yo (Special Release 2019)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Talisker 18yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Talisker 25yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Talisker 30yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Talisker 35yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Talisker 57 North",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Talisker 8yo (Special Releases)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Talisker Dark Storm",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Talisker Distiller's Edition (all editions)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Talisker Port Ruighe",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Talisker Skye",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Talisker Storm",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Tamdhu 10yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Tamdhu 30yo (MacPhail Collection 2009)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Tamdhu Batch Strength (all batches)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Tamnavulin 12yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "T\u00e9 Bheag",
+    "region": "Scotland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Teacher's Highland Cream",
+    "region": "Scotland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Teaninich 10yo (F&F)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Teeling Poitin",
+    "region": "Ireland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Teeling Silver Reserve 21yo Sauternes Finish",
+    "region": "Ireland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Teeling Single Grain (Wine Cask Finish)",
+    "region": "Ireland",
+    "type": "Grain"
+  },
+  {
+    "whisky": "Teeling Single Malt",
+    "region": "Ireland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Teeling Small Batch (Rum Cask Finish)",
+    "region": "Ireland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Teerenpeli 10yo",
+    "region": "Finland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Teerenpeli 8yo",
+    "region": "Finland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Teerenpeli Distiller\u2019s Choice AURA",
+    "region": "Finland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Teerenpeli Distiller\u2019s Choice KARHI",
+    "region": "Finland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Teerenpeli Distiller\u2019s Choice RASI",
+    "region": "Finland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Teerenpeli Distiller's Choice KASKI",
+    "region": "Finland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Teerenpeli Suomi 100 Juhlaviski",
+    "region": "Finland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Templeton Rye",
+    "region": "USA",
+    "type": "Rye"
+  },
+  {
+    "whisky": "The Irishman Cask Strength",
+    "region": "Ireland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "The Irishman Founder\u2019s Reserve",
+    "region": "Ireland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "The Irishman Original Clan Irish Whiskey",
+    "region": "Ireland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "The Irishman Single Malt (NAS)",
+    "region": "Ireland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "The Quiet Man 8yo Single Malt",
+    "region": "Ireland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "The Quiet Man Traditional Irish Whiskey",
+    "region": "Ireland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Thomas H. Handy Sazerac",
+    "region": "USA",
+    "type": "Rye"
+  },
+  {
+    "whisky": "Three Ships 10yo",
+    "region": "South Africa",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Three Ships 5yo",
+    "region": "South Africa",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Timorous Beastie",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Timorous Beastie 10yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Timorous Beastie 12yo Cask Strength",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Timorous Beastie 18yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Timorous Beastie 21yo Sherry Edition",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Timorous Beastie 40yo Cask Strength",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Tincup American Whiskey",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Tobermory 10yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Tobermory 12yo Bourbon-matured",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Tobermory 15yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Tomatin 12yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Tomatin 14yo Portwood",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Tomatin 15yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Tomatin 18yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Tomatin 40yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Tomatin Cask Strength",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Tomatin Cu Bocan",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Tomatin Cu Bocan 1989 Limited Edition",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Tomatin Cu Bocan 2005 Limited Edition",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Tomatin Cu Bocan Sherry Edition",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Tomatin Cu Bocan Virgin Oak Edition",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Tomatin Decades",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Tomatin Legacy",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Tomatin Oloroso Sherry 1995",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Tomintoul 10yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Tomintoul 12yo Oloroso Sherry",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Tomintoul 16yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Tomintoul 25yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Tomintoul Peaty Tang",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Tormore 12yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Tormore 14yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Tullamore Dew 10yo Single Malt",
+    "region": "Ireland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Tullamore Dew 14yo Single Malt",
+    "region": "Ireland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Tullamore Dew Original Blended",
+    "region": "Ireland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Tullamore Dew Special Reserve 12yo",
+    "region": "Ireland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Tullibardine 1993 Port",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Tullibardine 1993 Sauternes",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Tullibardine 20yo",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Tullibardine 225 Sauternes Finish",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Tullibardine 228 Burgundy Finish",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Tullibardine 25yo",
+    "region": "Ireland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Tullibardine 500 Sherry Finish",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Tullibardine Aged Oak Edition",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Tullibardine Sovereign",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Tullibardine Vintage 1993",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Twelve Barrels",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Two Brewers Cask Strength (all releases)",
+    "region": "Canada",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Two Brewers Classic (all releases)",
+    "region": "Canada",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Two Brewers Innovative (all releases)",
+    "region": "Canada",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Two Brewers Peated (all releases)",
+    "region": "Canada",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Two Brewers Release 01 Classic",
+    "region": "Canada",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Two Brewers Release 02 Special Finishes",
+    "region": "Canada",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Two Brewers Release 03 Peated",
+    "region": "Canada",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Two Brewers Release 04 Special Finishes",
+    "region": "Canada",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Two Brewers Release 05 Innovative",
+    "region": "Canada",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Two Brewers Release 06 Classic",
+    "region": "Canada",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Two Brewers Release 07 Peated",
+    "region": "Canada",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Two Brewers Release 08 Innovative",
+    "region": "Canada",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Two Brewers Release 09 Special Finishes",
+    "region": "Canada",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Two Brewers Release 10 Cask Strength",
+    "region": "Canada",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Two Brewers Release 12 Peated",
+    "region": "Canada",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Two Brewers Release 13 Classic",
+    "region": "Canada",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Two Brewers Release 14 Innovative",
+    "region": "Canada",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Two Brewers Release 15 Special Finishes",
+    "region": "Canada",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Two Brewers Release 16 Classic",
+    "region": "Canada",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Two Brewers Release 17 Innovative",
+    "region": "Canada",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Two Brewers Release 19 Peated",
+    "region": "Canada",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Two Brewers Release 20 Innovative",
+    "region": "Canada",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Two Brewers Release 21 Classic",
+    "region": "Canada",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Two Brewers Release 22 Innovative",
+    "region": "Canada",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Two Brewers Release 23 Special Finishes",
+    "region": "Canada",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Two Brewers Release 25 Peated",
+    "region": "Canada",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Two Brewers Release 26 Classic",
+    "region": "Canada",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Two Brewers Release 27 Innovative",
+    "region": "Canada",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Two Brewers Release 28 Special Finishes",
+    "region": "Canada",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Two Brewers Release 30 Peated",
+    "region": "Canada",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Two Brewers Release 31 Classic",
+    "region": "Canada",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Two Brewers Release 32 Innovative",
+    "region": "Canada",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Two Brewers Special Finishes (all releases)",
+    "region": "Canada",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Tyrconnell 10yo Madeira Cask Finish",
+    "region": "Ireland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Tyrconnell 10yo Port Cask Finish",
+    "region": "Ireland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Tyrconnell 10yo Sherry Cask Finish",
+    "region": "Ireland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Tyrconnell Single Malt Irish Whiskey",
+    "region": "Ireland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Van Winkle Family Reserve Rye 13yo",
+    "region": "USA",
+    "type": "Rye"
+  },
+  {
+    "whisky": "Van Winkle Special Reserve 12yo Lot B",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Very Old Barton 6yo",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Very Old Barton 6yo BiB",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Virginia Black",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "W.L. Weller 12yo",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "W.L. Weller Special Reserve",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Wayne Gretzky No. 99 Ice Cask",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Wayne Gretzky No. 99 Ninety Nine Proof",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Wayne Gretzky No. 99 Red Cask",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Wemyss Malts Kiln Embers",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Wemyss Malts Peat Chimney",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Wemyss Malts Smooth Gentleman",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Wemyss Malts The Hive",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Wemyss Malts The Rockpool",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Wemyss Malts The Spice King",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Wemyss Malts Velvet Fig",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "West Cork Original Bourbon Cask",
+    "region": "Ireland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Westland American Single Malt (American Oak)",
+    "region": "USA",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Westland Garryana",
+    "region": "USA",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Westland Peat Week",
+    "region": "USA",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Westland Peated",
+    "region": "USA",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Westland Sherry Wood",
+    "region": "USA",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Westland Single Cask",
+    "region": "USA",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Westland Winter 2016",
+    "region": "USA",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Whistlepig 6yo Piggyback",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Whistlepig 10yo",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Whistlepig The Boss Hog",
+    "region": "Canada",
+    "type": "Blend"
+  },
+  {
+    "whisky": "White Oak Akashi 14yo",
+    "region": "Japan",
+    "type": "Malt"
+  },
+  {
+    "whisky": "White Oak Akashi 5yo",
+    "region": "Japan",
+    "type": "Malt"
+  },
+  {
+    "whisky": "White Oak Akashi Blended",
+    "region": "Japan",
+    "type": "Blend"
+  },
+  {
+    "whisky": "White Oak Akashi Single Malt (NAS)",
+    "region": "Japan",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Whyte & Mackay 13yo",
+    "region": "Scotland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Whyte & Mackay 30yo",
+    "region": "Scotland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Whyte & Mackay Blended Triple Matured",
+    "region": "Scotland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Whyte & Mackay Special Blended",
+    "region": "Scotland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Wild Turkey 101 Bourbon",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Wild Turkey 101 Rye",
+    "region": "USA",
+    "type": "Rye"
+  },
+  {
+    "whisky": "Wild Turkey 14yo Tradition",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Wild Turkey 15yo American Spirit",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Wild Turkey 17yo Master's Keep",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Wild Turkey 81 Bourbon",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Wild Turkey 81 Rye",
+    "region": "USA",
+    "type": "Rye"
+  },
+  {
+    "whisky": "Wild Turkey Diamond Anniversary",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Wild Turkey Forgiven",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Wild Turkey Kentucky Spirit Single Barrel",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Wild Turkey Longbranch",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Wild Turkey Master's Keep Cornerstone Rye",
+    "region": "USA",
+    "type": "Rye"
+  },
+  {
+    "whisky": "Wild Turkey Master's Keep Decades",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Wild Turkey Master's Keep Revival",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Wild Turkey Rare Breed",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Willett Family Estate 11yo Bourbon",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Willett Family Estate 13yo Bourbon",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Willett Family Estate 14yo Bourbon",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Willett Family Estate 17yo Bourbon",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Willett Family Estate 22yo Bourbon",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Willett Family Estate 24yo Bourbon",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Willett Family Estate 25yo Rye",
+    "region": "USA",
+    "type": "Rye"
+  },
+  {
+    "whisky": "Willett Family Estate 2yo Rye",
+    "region": "USA",
+    "type": "Rye"
+  },
+  {
+    "whisky": "Willett Family Estate 3yo Rye",
+    "region": "USA",
+    "type": "Rye"
+  },
+  {
+    "whisky": "Willett Family Estate 4yo Rye",
+    "region": "USA",
+    "type": "Rye"
+  },
+  {
+    "whisky": "Willett Family Estate 5yo Bourbon",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Willett Family Estate 5yo Rye",
+    "region": "USA",
+    "type": "Rye"
+  },
+  {
+    "whisky": "Willett Family Estate 6yo Rye",
+    "region": "USA",
+    "type": "Rye"
+  },
+  {
+    "whisky": "Willett Family Estate 7yo Bourbon",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Willett Family Estate 7yo Rye",
+    "region": "USA",
+    "type": "Rye"
+  },
+  {
+    "whisky": "Willett Family Estate 8yo Bourbon",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Willett Family Estate 9yo Bourbon",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Willett Family Estate Bourbon (all ages)",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Willett Family Estate Rye (all ages)",
+    "region": "USA",
+    "type": "Rye"
+  },
+  {
+    "whisky": "Willett Family Estate Rye XCF 1.0",
+    "region": "USA",
+    "type": "Rye"
+  },
+  {
+    "whisky": "Willett Pot Still Reserve",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "William Heavenhill BiB",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "William Larue Weller",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Wolfburn (NAS)",
+    "region": "Scotland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Woodford Reserve Distiller's Select",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Woodford Reserve Double Oaked",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Woodford Reserve Straight Rye",
+    "region": "USA",
+    "type": "Rye"
+  },
+  {
+    "whisky": "Writers Tears Pot Still Cask Strength",
+    "region": "Ireland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Writers Tears Pot Still Irish Whiskey",
+    "region": "Ireland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Writers Tears Red Head Single Malt",
+    "region": "Ireland",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Yamazaki 12yo",
+    "region": "Japan",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Yamazaki 18yo",
+    "region": "Japan",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Yamazaki Bourbon Barrel",
+    "region": "Japan",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Yamazaki Distiller's Reserve",
+    "region": "Japan",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Yamazaki Limited Edition 2015",
+    "region": "Japan",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Yamazaki Limited Edition 2016",
+    "region": "Japan",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Yamazaki Mizunara",
+    "region": "Japan",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Yamazaki NAS",
+    "region": "Japan",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Yamazaki Puncheon",
+    "region": "Japan",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Yamazaki Sherry Cask (all vintages)",
+    "region": "Japan",
+    "type": "Malt"
+  },
+  {
+    "whisky": "Yamazakura 16yo Blended Whisky",
+    "region": "Japan",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Yamazakura Blended Whisky",
+    "region": "Japan",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Yellow Rose Straight Rye",
+    "region": "USA",
+    "type": "Rye"
+  },
+  {
+    "whisky": "Yellow Spot 12yo",
+    "region": "Ireland",
+    "type": "Blend"
+  },
+  {
+    "whisky": "Yellowstone 2015 Limited Edition",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Yellowstone 2016 Limited Edition",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Yellowstone 2018 Limited Edition",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Yellowstone Limited Edition (all vintages)",
+    "region": "USA",
+    "type": "Bourbon"
+  },
+  {
+    "whisky": "Yellowstone Select",
+    "region": "USA",
+    "type": "Bourbon"
+  }
+]
