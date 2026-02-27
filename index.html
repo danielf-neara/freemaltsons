@@ -1,0 +1,1986 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Freemaltson's — Whisky Nights</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+
+/* ── Root Variables ─────────────────────────────────────────────── */
+:root {
+  --bg:            #09060400;
+  --bg-page:       #09060400;
+  --bg-deep:       #060403;
+  --bg-surface:    #130d08;
+  --bg-surface-lt: #1c1208;
+  --bg-modal:      #0e0904;
+  --bg-header:     #110b06;
+
+  --gold:          #b39050;
+  --gold-lt:       #ddb96a;
+  --gold-dim:      #6b5028;
+  --gold-faint:    #342512;
+  --gold-glow:     rgba(179,144,80,0.12);
+
+  --amber:         #a86018;
+  --oxblood:       #5c1616;
+
+  --cream:         #faf3e4;
+  --cream-dim:     #d4a96a;
+  --text-dim:      #a88060;
+  --text-faint:    #6b4c2e;
+
+  --border:        #251508;
+  --border-gold:   #4a3018;
+  --border-accent: #6b4820;
+
+  --font-serif: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+  --font-sans:  'Montserrat', 'Helvetica Neue', Arial, sans-serif;
+
+  --radius-xs: 2px;
+  --radius-sm: 4px;
+  --radius:    6px;
+
+  --shadow: 0 12px 48px rgba(0,0,0,0.75), 0 4px 12px rgba(0,0,0,0.5);
+  --shadow-card: 0 8px 32px rgba(0,0,0,0.7), 0 2px 8px rgba(0,0,0,0.4);
+  --shadow-card-hover: 0 16px 56px rgba(0,0,0,0.85), 0 4px 16px rgba(0,0,0,0.5);
+
+  --transition: 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* ── Reset & Base ───────────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: var(--font-sans);
+  background-color: #09060400;
+  background-image:
+    radial-gradient(ellipse 100% 60% at 50% 0%, #1e1008 0%, #09060400 55%);
+  background-attachment: fixed;
+  color: var(--cream);
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Subtle grain overlay */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0.6;
+}
+
+/* ── Decorative Rule ────────────────────────────────────────────── */
+.rule {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin: 0 auto;
+}
+
+.rule::before,
+.rule::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--gold-dim));
+}
+
+.rule::after {
+  background: linear-gradient(90deg, var(--gold-dim), transparent);
+}
+
+.rule-ornament {
+  color: var(--gold-dim);
+  font-size: 0.55rem;
+  letter-spacing: 0.2em;
+  font-family: var(--font-serif);
+}
+
+/* ── Header ─────────────────────────────────────────────────────── */
+header {
+  position: relative;
+  background: var(--bg-header);
+  border-bottom: 1px solid var(--border-gold);
+  padding: 44px 24px 36px;
+  text-align: center;
+  overflow: hidden;
+  z-index: 1;
+}
+
+/* Fireplace glow from below */
+header::after {
+  content: '';
+  position: absolute;
+  bottom: -60px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 700px;
+  height: 200px;
+  background: radial-gradient(ellipse, rgba(168,80,20,0.06) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+/* Chandelier glow from top */
+header::before {
+  content: '';
+  position: absolute;
+  top: -80px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 500px;
+  height: 220px;
+  background: radial-gradient(ellipse, rgba(179,144,80,0.07) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.header-inner { position: relative; z-index: 1; }
+
+.header-rule-top {
+  max-width: 360px;
+  margin: 0 auto 22px;
+}
+
+.header-title {
+  font-family: var(--font-serif);
+  font-weight: 400;
+  font-size: clamp(2rem, 5vw, 3.2rem);
+  letter-spacing: 0.18em;
+  color: var(--cream);
+  text-transform: uppercase;
+  line-height: 1;
+  margin-bottom: 6px;
+}
+
+.header-subtitle {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-weight: 400;
+  font-size: clamp(0.9rem, 2vw, 1.15rem);
+  color: var(--gold);
+  letter-spacing: 0.12em;
+  margin-bottom: 22px;
+}
+
+.header-rule-bottom {
+  max-width: 360px;
+  margin: 0 auto 28px;
+}
+
+.header-stats {
+  display: flex;
+  justify-content: center;
+  gap: clamp(20px, 5vw, 60px);
+  flex-wrap: wrap;
+}
+
+.header-stat { text-align: center; }
+
+.header-stat .val {
+  font-family: var(--font-serif);
+  font-size: clamp(1.6rem, 3vw, 2.2rem);
+  font-weight: 400;
+  color: #f0c060;
+  line-height: 1;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.header-stat .lbl {
+  font-family: var(--font-sans);
+  font-size: 0.62rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+  font-weight: 500;
+}
+
+/* ── Controls Bar ────────────────────────────────────────────────── */
+.controls-bar {
+  position: relative;
+  z-index: 1;
+  max-width: 1160px;
+  margin: 28px auto 0;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.controls-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.search-input {
+  flex: 1;
+  min-width: 200px;
+  background: var(--bg-surface);
+  border: none;
+  border-bottom: 1px solid var(--border-accent);
+  color: var(--cream);
+  padding: 10px 14px 10px 0;
+  font-family: var(--font-sans);
+  font-size: 0.8rem;
+  letter-spacing: 0.06em;
+  outline: none;
+  transition: border-color var(--transition);
+}
+
+.search-input:focus { border-bottom-color: var(--gold); }
+.search-input::placeholder { color: var(--text-faint); letter-spacing: 0.08em; font-weight: 300; }
+
+.filter-group {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.filter-label {
+  font-size: 0.6rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--text-faint);
+  font-family: var(--font-sans);
+  font-weight: 500;
+  margin-right: 2px;
+}
+
+.pill {
+  background: transparent;
+  border: 1px solid var(--border-gold);
+  color: var(--text-dim);
+  padding: 5px 13px;
+  border-radius: var(--radius-xs);
+  font-size: 0.68rem;
+  font-family: var(--font-sans);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all var(--transition);
+  font-weight: 500;
+}
+
+.pill:hover { border-color: var(--gold); color: var(--gold-lt); }
+.pill.active {
+  background: var(--gold);
+  border-color: var(--gold);
+  color: #1a0d06;
+  font-weight: 600;
+}
+
+.results-count {
+  font-family: var(--font-sans);
+  font-size: 0.65rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-faint);
+  font-weight: 400;
+  padding-left: 4px;
+}
+
+/* Stats toggle */
+.stats-toggle {
+  background: transparent;
+  border: none;
+  color: var(--text-dim);
+  cursor: pointer;
+  font-family: var(--font-sans);
+  font-size: 0.68rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0;
+  transition: color var(--transition);
+}
+
+.stats-toggle:hover { color: var(--gold); }
+.stats-toggle .toggle-arrow { transition: transform var(--transition); display: inline-block; }
+.stats-toggle.open .toggle-arrow { transform: rotate(180deg); }
+
+/* ── Sync status ─────────────────────────────────────────────────── */
+#syncStatus {
+  font-family: var(--font-sans);
+  font-size: 0.6rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: var(--text-faint);
+}
+#syncStatus[data-status="synced"]  { color: var(--gold-dim); }
+#syncStatus[data-status="syncing"] { color: var(--text-dim); }
+#syncStatus[data-status="error"]   { color: #8b2020; }
+#syncStatus[data-status="offline"] { color: var(--text-faint); }
+
+/* ── Stats Ledger ───────────────────────────────────────────────── */
+.stats-panel {
+  display: none;
+  background: var(--bg-surface);
+  border: 1px solid var(--border-gold);
+  border-top: 2px solid var(--gold-dim);
+  padding: 28px 32px;
+  gap: 40px;
+  margin-top: 14px;
+}
+
+.stats-panel.open { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); }
+
+.ledger-block {}
+
+.ledger-heading {
+  font-family: var(--font-sans);
+  font-size: 0.6rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--gold);
+  font-weight: 600;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--border-gold);
+  margin-bottom: 12px;
+}
+
+.ledger-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  padding: 7px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.ledger-name {
+  font-family: var(--font-serif);
+  font-size: 0.95rem;
+  color: var(--cream);
+  font-weight: 400;
+}
+
+.ledger-bar-wrap {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex: 1;
+  margin: 0 12px;
+}
+
+.ledger-bar {
+  height: 1px;
+  background: var(--gold-dim);
+  border-radius: 1px;
+  min-width: 2px;
+}
+
+.ledger-val {
+  font-family: var(--font-serif);
+  font-size: 0.95rem;
+  color: var(--gold);
+  font-weight: 400;
+  text-align: right;
+  min-width: 32px;
+}
+
+/* ── Session Grid ────────────────────────────────────────────────── */
+.sessions-grid {
+  position: relative;
+  z-index: 1;
+  max-width: 1160px;
+  margin: 28px auto 120px;
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 20px;
+}
+
+/* ── Card ────────────────────────────────────────────────────────── */
+.card {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-gold);
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  box-shadow: var(--shadow-card);
+  transition:
+    transform var(--transition),
+    box-shadow var(--transition),
+    border-color var(--transition);
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-card-hover);
+  border-color: var(--border-accent);
+}
+
+/* Image area */
+.card-image {
+  width: 100%;
+  height: 190px;
+  background: #0a0604;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+  flex-shrink: 0;
+}
+
+.card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding: 16px;
+  transition: transform var(--transition);
+}
+
+.card:hover .card-image img {
+  transform: scale(1.04);
+}
+
+.no-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  color: var(--text-faint);
+  opacity: 0.5;
+}
+
+.no-image svg { opacity: 0.5; }
+
+.no-image span {
+  font-family: var(--font-sans);
+  font-size: 0.6rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+/* Badge rule (between image and body) */
+.card-badge-rule {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 20px;
+  flex-shrink: 0;
+}
+
+.card-badge-rule::before {
+  content: '';
+  position: absolute;
+  left: 16px;
+  right: 16px;
+  top: 50%;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--gold-faint) 25%, var(--gold-faint) 75%, transparent);
+  transform: translateY(-50%);
+}
+
+.session-badge {
+  background: var(--bg-surface);
+  border: 1px solid var(--gold-dim);
+  color: var(--gold);
+  font-family: var(--font-serif);
+  font-size: 0.7rem;
+  font-weight: 400;
+  letter-spacing: 0.18em;
+  padding: 3px 12px;
+  border-radius: var(--radius-xs);
+  position: relative;
+  z-index: 1;
+  white-space: nowrap;
+}
+
+/* Card body */
+.card-body {
+  padding: 4px 18px 18px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-whisky {
+  font-family: var(--font-serif);
+  font-weight: 500;
+  font-size: 1.1rem;
+  color: var(--cream);
+  line-height: 1.35;
+  margin-bottom: 4px;
+}
+
+.card-region {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: 0.82rem;
+  color: var(--gold-lt);
+  margin-bottom: 12px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: 400;
+}
+
+.card-divider {
+  height: 1px;
+  background: linear-gradient(90deg, var(--border-gold), transparent);
+  margin-bottom: 10px;
+  flex-shrink: 0;
+}
+
+.card-meta {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+
+.card-host {
+  font-family: var(--font-sans);
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--cream);
+  font-weight: 500;
+}
+
+.card-rrp {
+  font-family: var(--font-serif);
+  font-size: 0.9rem;
+  color: var(--gold);
+  font-weight: 400;
+}
+
+.card-date {
+  font-family: var(--font-sans);
+  font-size: 0.65rem;
+  letter-spacing: 0.08em;
+  color: var(--text-dim);
+  font-weight: 400;
+  margin-top: auto;
+  padding-top: 4px;
+}
+
+.card-dm-link {
+  display: inline-block;
+  font-family: var(--font-sans);
+  font-size: 0.62rem;
+  letter-spacing: 0.06em;
+  color: var(--gold-dim);
+  text-decoration: none;
+  margin-bottom: 10px;
+  transition: color var(--transition);
+}
+.card-dm-link:hover { color: var(--gold); }
+
+.dm-banner {
+  font-family: var(--font-sans);
+  font-size: 0.68rem;
+  color: var(--gold-dim);
+  letter-spacing: 0.06em;
+  margin-bottom: 16px;
+  padding: 8px 12px;
+  background: var(--gold-faint);
+  border: 1px solid var(--gold-dim);
+  border-radius: var(--radius-sm);
+}
+
+/* ── Empty State ─────────────────────────────────────────────────── */
+.empty {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.empty p {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: 1rem;
+  color: var(--text-faint);
+}
+
+/* ── FAB ─────────────────────────────────────────────────────────── */
+.fab {
+  position: fixed;
+  bottom: 28px;
+  right: 28px;
+  z-index: 100;
+  background: var(--bg-surface);
+  border: 1px solid var(--gold-dim);
+  color: var(--gold);
+  padding: 13px 28px;
+  border-radius: var(--radius-xs);
+  font-family: var(--font-sans);
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  cursor: pointer;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.6);
+  transition: all var(--transition);
+}
+
+.fab:hover {
+  background: var(--gold-faint);
+  border-color: var(--gold);
+  color: var(--gold-lt);
+  box-shadow: 0 12px 40px rgba(0,0,0,0.7), 0 0 20px var(--gold-glow);
+}
+
+/* ── Modal Overlay ───────────────────────────────────────────────── */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(6,4,2,0.88);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 200;
+  padding: 16px;
+  backdrop-filter: blur(2px);
+}
+
+.modal-overlay.open { display: flex; }
+
+/* ── Modal ───────────────────────────────────────────────────────── */
+.modal {
+  background: var(--bg-modal);
+  border: 1px solid var(--border-accent);
+  border-top: 2px solid var(--gold-dim);
+  border-radius: var(--radius-sm);
+  width: 100%;
+  max-width: 500px;
+  max-height: 90vh;
+  overflow-y: auto;
+  padding: 36px 36px 32px;
+  position: relative;
+  box-shadow: var(--shadow);
+}
+
+.modal-close {
+  position: absolute;
+  top: 18px;
+  right: 20px;
+  background: transparent;
+  border: none;
+  color: var(--text-dim);
+  font-size: 1.1rem;
+  cursor: pointer;
+  padding: 4px 8px;
+  transition: color var(--transition);
+  font-family: var(--font-sans);
+  font-weight: 400;
+  letter-spacing: 0.05em;
+}
+
+.modal-close:hover { color: var(--gold); }
+
+/* Step indicator */
+.steps-indicator {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 28px;
+}
+
+.step-dot {
+  height: 1px;
+  flex: 1;
+  background: var(--border);
+  transition: background var(--transition);
+}
+
+.step-dot.done { background: var(--gold-dim); }
+.step-dot.active { background: var(--gold); }
+
+/* Modal heading */
+.modal-step-label {
+  font-family: var(--font-sans);
+  font-size: 0.6rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--gold);
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.modal-heading {
+  font-family: var(--font-serif);
+  font-weight: 400;
+  font-size: 1.6rem;
+  color: var(--cream);
+  margin-bottom: 24px;
+  letter-spacing: 0.02em;
+}
+
+/* Host grid */
+.host-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+}
+
+.host-btn {
+  background: transparent;
+  border: 1px solid var(--border-gold);
+  color: var(--cream-dim);
+  padding: 16px 8px 14px;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  text-align: center;
+  transition: all var(--transition);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.host-btn .initials {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1px solid var(--gold-dim);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-serif);
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--gold);
+  transition: all var(--transition);
+}
+
+.host-btn .name {
+  font-family: var(--font-sans);
+  font-size: 0.68rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.host-btn:hover {
+  border-color: var(--gold-dim);
+  color: var(--cream);
+}
+
+.host-btn:hover .initials {
+  background: var(--gold-faint);
+  border-color: var(--gold);
+}
+
+.host-btn.selected {
+  border-color: var(--gold);
+  background: var(--gold-faint);
+  color: var(--cream);
+}
+
+.host-btn.selected .initials {
+  background: var(--gold-dim);
+  border-color: var(--gold);
+  color: var(--gold-lt);
+}
+
+/* Form fields */
+.form-section {
+  margin-top: 20px;
+}
+
+.field {
+  margin-bottom: 20px;
+}
+
+.field-label {
+  display: block;
+  font-family: var(--font-sans);
+  font-size: 0.6rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--gold-dim);
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.field-note {
+  font-size: 0.58rem;
+  letter-spacing: 0.06em;
+  color: var(--text-faint);
+  font-weight: 400;
+  text-transform: none;
+}
+
+.modal-input {
+  width: 100%;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid var(--border-accent);
+  color: var(--cream);
+  padding: 8px 0;
+  font-family: var(--font-serif);
+  font-size: 1rem;
+  font-weight: 400;
+  outline: none;
+  transition: border-color var(--transition);
+}
+
+.modal-input:focus { border-bottom-color: var(--gold); }
+.modal-input::placeholder { color: var(--text-faint); font-style: italic; font-size: 0.9rem; }
+
+.fields-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+/* Whisky search */
+.search-wrap { position: relative; }
+
+.autocomplete-list {
+  position: absolute;
+  top: calc(100% + 4px);
+  left: 0; right: 0;
+  background: #150e08;
+  border: 1px solid var(--border-accent);
+  border-radius: var(--radius-sm);
+  max-height: 240px;
+  overflow-y: auto;
+  z-index: 10;
+  display: none;
+}
+
+.autocomplete-list.open { display: block; }
+
+.autocomplete-item {
+  padding: 11px 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  border-bottom: 1px solid var(--border);
+  transition: background var(--transition);
+}
+
+.autocomplete-item:last-child { border-bottom: none; }
+.autocomplete-item:hover { background: var(--gold-faint); }
+
+.autocomplete-item img {
+  width: 30px;
+  height: 42px;
+  object-fit: contain;
+  border-radius: 2px;
+  background: #0a0604;
+  flex-shrink: 0;
+  opacity: 0.8;
+}
+
+.autocomplete-item .ac-info { flex: 1; min-width: 0; }
+
+.autocomplete-item .ac-name {
+  font-family: var(--font-serif);
+  font-size: 0.95rem;
+  color: var(--cream);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.autocomplete-item .ac-meta {
+  font-family: var(--font-sans);
+  font-size: 0.68rem;
+  color: var(--text-dim);
+  letter-spacing: 0.04em;
+  margin-top: 2px;
+}
+
+.ac-badge {
+  font-family: var(--font-sans);
+  font-size: 0.6rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--gold-dim);
+  border: 1px solid var(--border-gold);
+  padding: 2px 7px;
+  border-radius: var(--radius-xs);
+  flex-shrink: 0;
+}
+
+.ac-badge.new { color: var(--gold); border-color: var(--gold-dim); }
+.ac-badge.lib { color: var(--text-dim); border-color: var(--border-accent); }
+
+.spinner-row {
+  display: none;
+  align-items: center;
+  gap: 8px;
+  margin-top: 6px;
+  font-family: var(--font-sans);
+  font-size: 0.65rem;
+  color: var(--text-dim);
+  letter-spacing: 0.06em;
+}
+
+/* Image preview */
+.image-preview {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 12px;
+  padding: 12px 14px;
+  background: var(--bg-surface);
+  border: 1px solid var(--border-gold);
+  border-radius: var(--radius-sm);
+}
+
+.image-preview img {
+  width: 48px;
+  height: 64px;
+  object-fit: contain;
+  border-radius: 2px;
+  background: #0a0604;
+  flex-shrink: 0;
+  opacity: 0.9;
+}
+
+.preview-info { flex: 1; }
+
+.preview-name {
+  font-family: var(--font-serif);
+  font-size: 0.9rem;
+  color: var(--cream);
+  margin-bottom: 3px;
+}
+
+.preview-source {
+  font-family: var(--font-sans);
+  font-size: 0.62rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+}
+
+/* Image find row */
+.image-field-row {
+  display: flex;
+  gap: 8px;
+  align-items: flex-end;
+}
+
+.image-field-row .modal-input { flex: 1; }
+
+.find-btn {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid var(--border-accent);
+  color: var(--gold-dim);
+  padding: 8px 4px;
+  font-family: var(--font-sans);
+  font-size: 0.65rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all var(--transition);
+  font-weight: 500;
+}
+
+.find-btn:hover { color: var(--gold); border-bottom-color: var(--gold); }
+
+.field-hint {
+  font-family: var(--font-sans);
+  font-size: 0.6rem;
+  color: var(--text-faint);
+  margin-top: 5px;
+  letter-spacing: 0.04em;
+}
+
+/* Modal actions */
+.modal-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 30px;
+  justify-content: flex-end;
+  padding-top: 20px;
+  border-top: 1px solid var(--border);
+}
+
+.btn-back {
+  background: transparent;
+  border: none;
+  color: var(--text-dim);
+  padding: 10px 0;
+  font-family: var(--font-sans);
+  font-size: 0.68rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: color var(--transition);
+  font-weight: 500;
+}
+
+.btn-back:hover { color: var(--cream-dim); }
+
+.btn-primary {
+  background: var(--bg-surface-lt);
+  border: 1px solid var(--gold-dim);
+  color: var(--gold);
+  padding: 11px 28px;
+  border-radius: var(--radius-xs);
+  font-family: var(--font-sans);
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all var(--transition);
+}
+
+.btn-primary:hover {
+  background: var(--gold-faint);
+  border-color: var(--gold);
+  color: var(--gold-lt);
+}
+
+.btn-primary:disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+}
+
+
+/* ── Scrollbar ───────────────────────────────────────────────────── */
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: var(--bg-deep); }
+::-webkit-scrollbar-thumb { background: var(--border-gold); border-radius: 3px; }
+
+/* ── Responsive ──────────────────────────────────────────────────── */
+@media (max-width: 540px) {
+  .header-title { font-size: 1.7rem; }
+  .host-grid { grid-template-columns: repeat(2, 1fr); }
+  .fields-row { grid-template-columns: 1fr; }
+  .sessions-grid { grid-template-columns: repeat(2, 1fr); gap: 12px; }
+  .modal { padding: 28px 20px 24px; }
+  .fab { right: 16px; bottom: 16px; padding: 11px 20px; }
+}
+
+@media (max-width: 360px) {
+  .sessions-grid { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+<body>
+
+<!-- ── Header ──────────────────────────────────────────────────────── -->
+<header>
+  <div class="header-inner">
+    <div class="rule header-rule-top"><span class="rule-ornament">✦</span></div>
+    <h1 class="header-title">Freemaltson's</h1>
+    <p class="header-subtitle">Whisky Nights</p>
+    <div class="rule header-rule-bottom"><span class="rule-ornament">✦</span></div>
+    <div class="header-stats">
+      <div class="header-stat"><span class="val" id="stat-sessions">–</span><span class="lbl">Sessions</span></div>
+      <div class="header-stat"><span class="val" id="stat-rounds">–</span><span class="lbl">Rounds</span></div>
+      <div class="header-stat"><span class="val" id="stat-spent">–</span><span class="lbl">Total RRP</span></div>
+      <div class="header-stat"><span class="val" id="stat-countries">–</span><span class="lbl">Countries</span></div>
+    </div>
+  </div>
+</header>
+
+<!-- ── Controls ────────────────────────────────────────────────────── -->
+<div class="controls-bar">
+  <div class="controls-row">
+    <input class="search-input" type="text" id="searchBox" placeholder="Search whiskies, regions, hosts…">
+    <div class="results-count" id="resultsCount"></div>
+    <button class="stats-toggle" id="statsToggle">
+      Ledger <span class="toggle-arrow">▾</span>
+    </button>
+    <span id="syncStatus" data-status="offline"></span>
+    <button class="stats-toggle" id="settingsBtn">⚙</button>
+  </div>
+
+  <div class="stats-panel" id="statsPanel">
+    <div class="ledger-block">
+      <div class="ledger-heading">Sessions Hosted</div>
+      <div id="hosting-leaderboard"></div>
+    </div>
+    <div class="ledger-block">
+      <div class="ledger-heading">Total Spend</div>
+      <div id="spend-leaderboard"></div>
+    </div>
+    <div class="ledger-block">
+      <div class="ledger-heading">Regions</div>
+      <div id="regions-list"></div>
+    </div>
+  </div>
+
+  <div class="controls-row">
+    <span class="filter-label">Host</span>
+    <div class="filter-group" id="hostPills"></div>
+  </div>
+  <div class="controls-row">
+    <span class="filter-label">Round</span>
+    <div class="filter-group" id="roundPills"></div>
+  </div>
+</div>
+
+<!-- ── Grid ────────────────────────────────────────────────────────── -->
+<div class="sessions-grid" id="sessionsGrid"></div>
+
+<!-- ── FAB ─────────────────────────────────────────────────────────── -->
+<button class="fab" id="addBtn">Add Session</button>
+
+<!-- ── Add Modal ──────────────────────────────────────────────────── -->
+<div class="modal-overlay" id="modalOverlay">
+  <div class="modal">
+    <button class="modal-close" id="modalClose">✕</button>
+    <div class="steps-indicator">
+      <div class="step-dot" id="dot0"></div>
+      <div class="step-dot" id="dot1"></div>
+      <div class="step-dot" id="dot2"></div>
+    </div>
+
+    <!-- Step 0: Host -->
+    <div id="step0">
+      <div class="modal-step-label">Step I of III</div>
+      <h2 class="modal-heading">Who is hosting?</h2>
+      <div class="host-grid" id="hostGrid"></div>
+      <div class="modal-actions">
+        <button class="btn-primary" id="hostNextBtn" disabled>Continue</button>
+      </div>
+    </div>
+
+    <!-- Step 1: Whisky -->
+    <div id="step1" style="display:none">
+      <div class="modal-step-label">Step II of III</div>
+      <h2 class="modal-heading">What is being poured?</h2>
+      <div class="field">
+        <label class="field-label">Whisky Name</label>
+        <div class="search-wrap">
+          <input class="modal-input" id="whiskySearchInput" type="text" placeholder="Search or type a name…" autocomplete="off">
+          <div class="autocomplete-list" id="autocompleteList"></div>
+        </div>
+        <div class="spinner-row" id="fetchSpinner"><div class="spinner"></div> Searching…</div>
+      </div>
+      <div id="dupWarning" style="display:none; margin-top:12px; padding:10px 14px; background:var(--oxblood); border:1px solid #8b2020; border-radius:var(--radius); color:#f5a0a0; font-family:var(--font-sans); font-size:0.75rem; line-height:1.5;"></div>
+      <div class="modal-actions">
+        <button class="btn-back" id="whiskyBackBtn">← Back</button>
+        <button class="btn-primary" id="whiskyNextBtn" disabled>Continue</button>
+      </div>
+    </div>
+
+    <!-- Step 2: Confirm -->
+    <div id="step2" style="display:none">
+      <div class="modal-step-label">Step III of III</div>
+      <h2 class="modal-heading">Confirm the entry</h2>
+
+      <div class="fields-row">
+        <div class="field" style="margin-bottom:0">
+          <label class="field-label">Session</label>
+          <input class="modal-input" id="sessionIdInput" type="text" placeholder="IX·VI">
+        </div>
+        <div class="field" style="margin-bottom:0">
+          <label class="field-label">Date</label>
+          <input class="modal-input" id="dateInput" type="date">
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="field-label">Whisky</label>
+        <input class="modal-input" id="whiskyNameInput" type="text" placeholder="Full whisky name">
+      </div>
+
+      <div id="dmBanner" style="display:none" class="dm-banner"></div>
+
+      <div class="field">
+        <label class="field-label">Region / Country</label>
+        <input class="modal-input" id="regionInput" type="text" placeholder="e.g. Speyside, Scotland">
+      </div>
+
+      <div class="field">
+        <label class="field-label">RRP <span class="field-note">(AUD $)</span></label>
+        <input class="modal-input" id="rrpInput" type="number" placeholder="e.g. 130" step="0.01" min="0">
+      </div>
+
+      <div class="field">
+        <label class="field-label">Bottle Image <span class="field-note">optional</span></label>
+        <div class="image-field-row">
+          <input class="modal-input" id="imageUrlInput" type="url" placeholder="Paste image URL…">
+          <button class="find-btn" id="findImageBtn">🔍 Find</button>
+        </div>
+        <div class="field-hint">Click Find → right-click bottle in Google → Copy image address → paste above</div>
+      </div>
+
+      <div id="imagePreview" style="display:none" class="image-preview">
+        <img id="previewImg" src="" alt="Bottle">
+        <div class="preview-info">
+          <div class="preview-name" id="previewName"></div>
+          <div class="preview-source" id="previewSource"></div>
+          <button class="btn-back" style="font-size:0.62rem;margin-top:6px" id="clearImageBtn">Remove</button>
+        </div>
+      </div>
+
+      <div class="modal-actions">
+        <button class="btn-back" id="detailBackBtn">← Back</button>
+        <button class="btn-primary" id="submitBtn">Record Session</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ── Edit Modal ──────────────────────────────────────────────────────── -->
+<div class="modal-overlay" id="editModalOverlay">
+  <div class="modal">
+    <button class="modal-close" id="editModalClose">✕</button>
+    <div class="modal-step-label">Edit Session</div>
+    <h2 class="modal-heading" id="editModalHeading">–</h2>
+
+    <div class="field">
+      <label class="field-label">Whisky</label>
+      <input class="modal-input" id="editWhiskyInput" type="text" placeholder="Full whisky name">
+    </div>
+
+    <div class="field">
+      <label class="field-label">Region / Country</label>
+      <input class="modal-input" id="editRegionInput" type="text" placeholder="e.g. Speyside, Scotland">
+    </div>
+
+    <div class="fields-row">
+      <div class="field" style="margin-bottom:0">
+        <label class="field-label">RRP <span class="field-note">(AUD $)</span></label>
+        <input class="modal-input" id="editRrpInput" type="number" placeholder="e.g. 130" step="0.01" min="0">
+      </div>
+      <div class="field" style="margin-bottom:0">
+        <label class="field-label">Date</label>
+        <input class="modal-input" id="editDateInput" type="date">
+      </div>
+    </div>
+
+    <div class="field" style="margin-top:20px">
+      <label class="field-label">Bottle Image <span class="field-note">optional</span></label>
+      <div class="image-field-row">
+        <input class="modal-input" id="editImageUrlInput" type="url" placeholder="Paste image URL…">
+        <button class="find-btn" id="editFindImageBtn">🔍 Find</button>
+      </div>
+      <div class="field-hint">Click Find → right-click bottle in Google → Copy image address → paste above</div>
+    </div>
+
+    <div id="editImagePreview" style="display:none" class="image-preview">
+      <img id="editPreviewImg" src="" alt="Bottle">
+      <div class="preview-info">
+        <div class="preview-name" id="editPreviewName"></div>
+        <div class="preview-source">Image preview</div>
+        <button class="btn-back" style="font-size:0.62rem;margin-top:6px" id="editClearImageBtn">Remove</button>
+      </div>
+    </div>
+
+    <div class="field" style="margin-top:20px">
+      <label class="field-label">Dan Murphy's URL <span class="field-note">optional</span></label>
+      <input class="modal-input" id="editDmUrlInput" type="url" placeholder="https://www.danmurphys.com.au/…">
+    </div>
+
+    <div class="modal-actions">
+      <button class="btn-back" id="editCancelBtn">Cancel</button>
+      <button class="btn-primary" id="editSaveBtn">Save</button>
+    </div>
+  </div>
+</div>
+
+<!-- ── Settings Modal ─────────────────────────────────────────────────── -->
+<div class="modal-overlay" id="settingsModalOverlay">
+  <div class="modal">
+    <button class="modal-close" id="settingsModalClose">✕</button>
+    <div class="modal-step-label">GitHub Sync</div>
+    <h2 class="modal-heading">Settings</h2>
+    <div class="field">
+      <label class="field-label">Personal Access Token</label>
+      <input class="modal-input" id="patInput" type="password" placeholder="github_pat_…" autocomplete="off">
+      <div class="field-hint">Fine-grained token → danielf-neara/freemaltsons → Contents: Read and write</div>
+    </div>
+    <div class="modal-actions">
+      <button class="btn-back" id="settingsCancelBtn">Cancel</button>
+      <button class="btn-primary" id="settingsSaveBtn">Save &amp; Sync</button>
+    </div>
+  </div>
+</div>
+
+<script>
+// ─── Constants ────────────────────────────────────────────────────────
+const GITHUB_REPO  = 'danielf-neara/freemaltsons';
+const GITHUB_DATA  = 'data/sessions.json';
+const PAT_KEY      = 'freemaltsons_pat';
+const ROMAN        = ['I','II','III','IV','V','VI','VII','VIII','IX','X','XI','XII'];
+const HOST_ALIASES = { brass:'Braas', braas:'Braas', willie:'Joess', joess:'Joess', fiddy:'Fiddy' };
+
+// ─── State ────────────────────────────────────────────────────────────
+let allSessions      = [];
+let allMembers       = [];
+let whiskyLibrary    = [];
+let filteredSessions = [];
+let activeHostFilter  = null;
+let activeRoundFilter = null;
+let searchQuery       = '';
+let newSession        = { host:null, whisky:null, region:null, rrp:null, image_url:null, dm_url:null };
+let githubSha         = null;
+
+// ─── GitHub API ───────────────────────────────────────────────────────
+function getPat() { return localStorage.getItem(PAT_KEY) || ''; }
+
+async function githubLoad() {
+  const pat     = getPat();
+  const headers = { Accept: 'application/vnd.github+json' };
+  if (pat) headers.Authorization = `Bearer ${pat}`;
+  try {
+    const res = await fetch(
+      `https://api.github.com/repos/${GITHUB_REPO}/contents/${GITHUB_DATA}`,
+      { headers }
+    );
+    if (!res.ok) return null;
+    const d   = await res.json();
+    githubSha = d.sha;
+    return JSON.parse(atob(d.content.replace(/\n/g, '')));
+  } catch { return null; }
+}
+
+async function githubSave() {
+  const pat = getPat();
+  if (!pat) { setSyncStatus('offline'); return; }
+  setSyncStatus('syncing');
+  try {
+    const json    = JSON.stringify({ sessions: allSessions, members: allMembers }, null, 2);
+    const content = btoa(unescape(encodeURIComponent(json)));
+    const body    = Object.assign({ message: 'Update sessions', content }, githubSha ? { sha: githubSha } : {});
+    const res = await fetch(
+      `https://api.github.com/repos/${GITHUB_REPO}/contents/${GITHUB_DATA}`,
+      {
+        method: 'PUT',
+        headers: {
+          Authorization: `Bearer ${pat}`,
+          Accept: 'application/vnd.github+json',
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(body),
+      }
+    );
+    if (!res.ok) { setSyncStatus('error'); return; }
+    const d   = await res.json();
+    githubSha = d.content.sha;
+    setSyncStatus('synced');
+  } catch { setSyncStatus('error'); }
+}
+
+function setSyncStatus(status) {
+  const el  = document.getElementById('syncStatus');
+  if (!el) return;
+  const map = { synced:'Synced ✓', syncing:'Syncing…', error:'Sync failed', offline:'No token' };
+  el.textContent    = map[status] || '';
+  el.dataset.status = status;
+}
+
+// ─── Helpers ──────────────────────────────────────────────────────────
+function normaliseHost(name) {
+  if (!name) return name;
+  return HOST_ALIASES[name.trim().toLowerCase()] || name.trim();
+}
+
+function romanToInt(r) { const i = ROMAN.indexOf(r); return i >= 0 ? i + 1 : 0; }
+function intToRoman(n) { return (n >= 1 && n <= ROMAN.length) ? ROMAN[n - 1] : String(n); }
+
+function computeNextId(sessions) {
+  const valid = sessions.filter(s => s.id && s.id.includes(':'));
+  if (!valid.length) return 'I:I';
+  const last  = valid[valid.length - 1].id;
+  const parts = last.split(':');
+  if (parts.length !== 2) return 'I:I';
+  const ri = romanToInt(parts[0]), si = romanToInt(parts[1]);
+  if (!ri || !si) return 'I:I';
+  if (si >= 7) return `${intToRoman(ri + 1)}:I`;
+  return `${parts[0]}:${intToRoman(si + 1)}`;
+}
+
+// ─── Init ─────────────────────────────────────────────────────────────
+window.addEventListener('DOMContentLoaded', async () => {
+  setSyncStatus('syncing');
+  // Load whisky library in background (raw GitHub URL works everywhere)
+  fetch('https://raw.githubusercontent.com/danielf-neara/freemaltsons/main/data/whisky-library.json')
+    .then(r => r.json()).then(d => { whiskyLibrary = d; }).catch(() => {});
+
+  const data = await githubLoad();
+  if (data) {
+    allSessions = (data.sessions || []).filter(s => s.whisky || s.host);
+    allMembers  = data.members || [];
+    allSessions.forEach(s => { s.host = normaliseHost(s.host); });
+    setSyncStatus(getPat() ? 'synced' : 'offline');
+  } else {
+    setSyncStatus(getPat() ? 'error' : 'offline');
+  }
+  renderHeaderStats();
+  renderLedger();
+  renderFilters();
+  applyFilters();
+  setupModal();
+  setupEditModal();
+  setupSettings();
+});
+
+// ─── Header stats ─────────────────────────────────────────────────────
+function renderHeaderStats() {
+  const sessions  = allSessions.filter(s => s.whisky);
+  const rounds    = [...new Set(sessions.map(s => (s.id || '').split(':')[0]).filter(Boolean))];
+  const countries = [...new Set(sessions.map(s => extractCountry(s.region)).filter(Boolean))];
+  const spent     = sessions.reduce((sum, s) => sum + (s.rrp || 0), 0);
+  document.getElementById('stat-sessions').textContent  = sessions.length;
+  document.getElementById('stat-rounds').textContent    = rounds.length;
+  document.getElementById('stat-spent').textContent     = spent > 0 ? '$' + Math.round(spent).toLocaleString() : '–';
+  document.getElementById('stat-countries').textContent = countries.length;
+}
+
+function extractCountry(region) {
+  if (!region) return null;
+  const r = region.toLowerCase();
+  for (const c of ['Scotland','Ireland','Japan','USA','Australia','India','Israel','France','Wales','Tasmania','South Africa']) {
+    if (r.includes(c.toLowerCase())) return c;
+  }
+  const m = region.match(/\(([^)]+)\)/);
+  if (m) return m[1];
+  return region.split(',').pop().trim() || null;
+}
+
+// ─── Stats toggle ─────────────────────────────────────────────────────
+document.getElementById('statsToggle').addEventListener('click', () => {
+  const btn   = document.getElementById('statsToggle');
+  const panel = document.getElementById('statsPanel');
+  btn.classList.toggle('open');
+  panel.classList.toggle('open');
+});
+
+function renderLedger() {
+  const sessions  = allSessions.filter(s => s.whisky && s.host);
+  const hostCount = {};
+  sessions.forEach(s => { hostCount[s.host] = (hostCount[s.host] || 0) + 1; });
+  const maxCount  = Math.max(...Object.values(hostCount), 1);
+  document.getElementById('hosting-leaderboard').innerHTML = Object.entries(hostCount)
+    .sort((a, b) => b[1] - a[1])
+    .map(([name, count]) => `
+      <div class="ledger-row">
+        <span class="ledger-name">${name}</span>
+        <div class="ledger-bar-wrap"><div class="ledger-bar" style="width:${(count/maxCount)*80}px"></div></div>
+        <span class="ledger-val">${count}</span>
+      </div>`).join('');
+
+  const hostSpend = {};
+  sessions.filter(s => s.rrp).forEach(s => { hostSpend[s.host] = (hostSpend[s.host] || 0) + s.rrp; });
+  const maxSpend  = Math.max(...Object.values(hostSpend), 1);
+  document.getElementById('spend-leaderboard').innerHTML = Object.entries(hostSpend)
+    .sort((a, b) => b[1] - a[1])
+    .map(([name, spend]) => `
+      <div class="ledger-row">
+        <span class="ledger-name">${name}</span>
+        <div class="ledger-bar-wrap"><div class="ledger-bar" style="width:${(spend/maxSpend)*70}px"></div></div>
+        <span class="ledger-val">$${Math.round(spend)}</span>
+      </div>`).join('');
+
+  const regionCount = {};
+  sessions.filter(s => s.region).forEach(s => {
+    const c = extractCountry(s.region) || s.region;
+    regionCount[c] = (regionCount[c] || 0) + 1;
+  });
+  document.getElementById('regions-list').innerHTML = Object.entries(regionCount)
+    .sort((a, b) => b[1] - a[1])
+    .map(([name, count]) => `
+      <div class="ledger-row">
+        <span class="ledger-name">${name}</span>
+        <span class="ledger-val">${count}</span>
+      </div>`).join('');
+}
+
+// ─── Filters ──────────────────────────────────────────────────────────
+function renderFilters() {
+  const sessions = allSessions.filter(s => s.whisky || s.host);
+  const hosts    = [...new Set(sessions.map(s => s.host).filter(Boolean))].sort();
+  document.getElementById('hostPills').innerHTML = hosts.map(h =>
+    `<span class="pill" data-host="${h}" onclick="toggleHostFilter('${h}')">${h}</span>`
+  ).join('');
+  const rounds = [...new Set(sessions.map(s => (s.id||'').split(':')[0]).filter(Boolean))];
+  rounds.sort((a, b) => ROMAN.indexOf(a) - ROMAN.indexOf(b));
+  document.getElementById('roundPills').innerHTML = rounds.map(r =>
+    `<span class="pill" data-round="${r}" onclick="toggleRoundFilter('${r}')">Round ${r}</span>`
+  ).join('');
+  document.getElementById('searchBox').addEventListener('input', e => {
+    searchQuery = e.target.value.toLowerCase();
+    applyFilters();
+  });
+}
+
+function toggleHostFilter(host) {
+  activeHostFilter = activeHostFilter === host ? null : host;
+  document.querySelectorAll('#hostPills .pill').forEach(p =>
+    p.classList.toggle('active', p.dataset.host === activeHostFilter));
+  applyFilters();
+}
+
+function toggleRoundFilter(round) {
+  activeRoundFilter = activeRoundFilter === round ? null : round;
+  document.querySelectorAll('#roundPills .pill').forEach(p =>
+    p.classList.toggle('active', p.dataset.round === activeRoundFilter));
+  applyFilters();
+}
+
+function applyFilters() {
+  let sessions = allSessions.filter(s => s.whisky || s.host);
+  sessions.sort((a, b) => {
+    const [ar, as_] = (a.id||':').split(':');
+    const [br, bs]  = (b.id||':').split(':');
+    const ri = ROMAN.indexOf(br) - ROMAN.indexOf(ar);
+    return ri !== 0 ? ri : ROMAN.indexOf(bs) - ROMAN.indexOf(as_);
+  });
+  if (activeHostFilter)  sessions = sessions.filter(s => s.host === activeHostFilter);
+  if (activeRoundFilter) sessions = sessions.filter(s => (s.id||'').startsWith(activeRoundFilter+':'));
+  if (searchQuery)       sessions = sessions.filter(s =>
+    (s.whisky||'').toLowerCase().includes(searchQuery) ||
+    (s.region||'').toLowerCase().includes(searchQuery) ||
+    (s.host||'').toLowerCase().includes(searchQuery));
+  filteredSessions = sessions;
+  renderGrid();
+  document.getElementById('resultsCount').textContent =
+    sessions.length + ' entr' + (sessions.length === 1 ? 'y' : 'ies');
+}
+
+// ─── Grid & Cards ─────────────────────────────────────────────────────
+function renderGrid() {
+  const grid = document.getElementById('sessionsGrid');
+  if (filteredSessions.length === 0) {
+    grid.innerHTML = `<div class="empty"><p>No sessions found</p></div>`;
+    return;
+  }
+  grid.innerHTML = filteredSessions.map(renderCard).join('');
+}
+
+function renderCard(s) {
+  const img = s.image_url
+    ? `<img src="${esc(s.image_url)}" alt="${esc(s.whisky||'')}" onerror="this.closest('.card-image').innerHTML=noImgHtml()">`
+    : noImgHtml();
+  const badgeText = s.id ? s.id.replace(':', ' · ') : '–';
+  return `<div class="card" onclick="openEditModal('${esc(s.id||'')}')">
+    <div class="card-image">${img}</div>
+    <div class="card-badge-rule">
+      <span class="session-badge">${esc(badgeText)}</span>
+    </div>
+    <div class="card-body">
+      <h3 class="card-whisky">${s.whisky ? esc(s.whisky) : '<em style="color:var(--text-faint)">Unknown</em>'}</h3>
+      ${s.dm_url ? `<a class="card-dm-link" href="${esc(s.dm_url)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">Dan Murphy's ↗</a>` : ''}
+      ${s.region ? `<p class="card-region">${esc(s.region)}</p>` : '<p class="card-region" style="opacity:0">&nbsp;</p>'}
+      <div class="card-divider"></div>
+      <div class="card-meta">
+        <span class="card-host">${esc(s.host||'')}</span>
+        ${s.rrp ? `<span class="card-rrp">$${s.rrp.toFixed(0)}</span>` : ''}
+      </div>
+      ${s.date ? `<div class="card-date">${formatDate(s.date)}</div>` : ''}
+    </div>
+  </div>`;
+}
+
+function noImgHtml() {
+  return `<div class="no-image">
+    <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
+      <path d="M3 3l18 18M10.5 6H19a2 2 0 012 2v10M5 8.5V18a2 2 0 002 2h9.5"/>
+      <path d="M12 7c-1.5 0-3 .6-4 1.7"/>
+    </svg>
+    <span>No image</span>
+  </div>`;
+}
+
+function esc(str) {
+  if (!str) return '';
+  return String(str).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+function formatDate(d) {
+  if (!d) return '';
+  try {
+    const dt = new Date(d + 'T00:00:00');
+    return dt.toLocaleDateString('en-AU', { day: 'numeric', month: 'long', year: 'numeric' });
+  } catch { return d; }
+}
+
+// ─── Modal ────────────────────────────────────────────────────────────
+function setupModal() {
+  document.getElementById('addBtn').addEventListener('click', openModal);
+  document.getElementById('modalClose').addEventListener('click', closeModal);
+  document.getElementById('modalOverlay').addEventListener('click', e => {
+    if (e.target === document.getElementById('modalOverlay')) closeModal();
+  });
+
+  document.getElementById('hostNextBtn').addEventListener('click', () => goStep(1));
+  document.getElementById('whiskyBackBtn').addEventListener('click', () => goStep(0));
+  document.getElementById('whiskyNextBtn').addEventListener('click', () => goStep(2));
+  setupWhiskySearch();
+
+  document.getElementById('detailBackBtn').addEventListener('click', () => goStep(1));
+  document.getElementById('submitBtn').addEventListener('click', submitSession);
+
+  document.getElementById('clearImageBtn').addEventListener('click', () => {
+    newSession.image_url = null;
+    document.getElementById('imageUrlInput').value = '';
+    document.getElementById('imagePreview').style.display = 'none';
+  });
+
+  document.getElementById('imageUrlInput').addEventListener('change', e => {
+    const url = e.target.value.trim();
+    if (url) { newSession.image_url = url; showImagePreview(url, 'Manually added'); }
+  });
+
+  document.getElementById('findImageBtn').addEventListener('click', () => {
+    const whisky = document.getElementById('whiskyNameInput').value || newSession.whisky || '';
+    const url    = `https://www.google.com/search?q=${encodeURIComponent(whisky + ' whisky bottle')}&tbm=isch`;
+    window.open(url, '_blank');
+  });
+}
+
+function openModal() {
+  newSession = { host: null, whisky: null, region: null, rrp: null, image_url: null, dm_url: null };
+
+  const nextId = computeNextId(allSessions);
+  const today  = new Date().toISOString().split('T')[0];
+  document.getElementById('sessionIdInput').value = nextId;
+  document.getElementById('dateInput').value      = today;
+
+  const hosts = allMembers.length ? allMembers :
+    [...new Set(allSessions.map(s => s.host).filter(Boolean))].sort();
+  document.getElementById('hostGrid').innerHTML = hosts.map(h => `
+    <button class="host-btn" onclick="selectHost('${h}')">
+      <div class="initials">${h.charAt(0).toUpperCase()}</div>
+      <div class="name">${h}</div>
+    </button>`).join('');
+
+  document.getElementById('hostNextBtn').disabled             = true;
+  document.getElementById('whiskySearchInput').value          = '';
+  document.getElementById('whiskyNameInput').value            = '';
+  document.getElementById('regionInput').value                = '';
+  document.getElementById('rrpInput').value                   = '';
+  document.getElementById('imageUrlInput').value              = '';
+  document.getElementById('imagePreview').style.display       = 'none';
+  document.getElementById('dmBanner').style.display           = 'none';
+  document.getElementById('dupWarning').style.display         = 'none';
+  document.getElementById('autocompleteList').classList.remove('open');
+
+  goStep(0);
+  document.getElementById('modalOverlay').classList.add('open');
+}
+
+function closeModal() {
+  document.getElementById('modalOverlay').classList.remove('open');
+}
+
+function goStep(n) {
+  for (let i = 0; i < 3; i++) {
+    document.getElementById('step' + i).style.display = i === n ? 'block' : 'none';
+    const dot = document.getElementById('dot' + i);
+    dot.classList.toggle('done', i < n);
+    dot.classList.toggle('active', i === n);
+  }
+  if (n === 1) setTimeout(() => document.getElementById('whiskySearchInput').focus(), 80);
+}
+
+function selectHost(name) {
+  newSession.host = name;
+  document.querySelectorAll('.host-btn').forEach(b => {
+    const isMatch = b.querySelector('.name')?.textContent?.trim() === name;
+    b.classList.toggle('selected', isMatch);
+  });
+  document.getElementById('hostNextBtn').disabled = false;
+}
+
+// ─── Whisky search ────────────────────────────────────────────────────
+let searchTimeout = null;
+
+function setupWhiskySearch() {
+  const input = document.getElementById('whiskySearchInput');
+  const list  = document.getElementById('autocompleteList');
+
+  input.addEventListener('input', () => {
+    const q = input.value.trim();
+    clearTimeout(searchTimeout);
+    if (q.length < 2) { list.classList.remove('open'); return; }
+    searchTimeout = setTimeout(() => {
+      renderAutocomplete(searchWhiskyLocal(q), q);
+    }, 150);
+  });
+
+  input.addEventListener('keydown', e => {
+    if (e.key === 'Enter' && input.value.trim()) {
+      selectWhisky({ whisky: input.value.trim(), region: null, rrp: null, image_url: null });
+    }
+    if (e.key === 'Escape') list.classList.remove('open');
+  });
+
+  document.addEventListener('click', e => {
+    if (!input.contains(e.target) && !list.contains(e.target)) list.classList.remove('open');
+  });
+}
+
+function searchWhiskyLocal(q) {
+  const ql   = q.toLowerCase();
+  const seen = new Set();
+  const results = [];
+  for (const s of allSessions) {
+    const whisky = s.whisky || '';
+    if (whisky.toLowerCase().includes(ql) && !seen.has(whisky.toLowerCase())) {
+      seen.add(whisky.toLowerCase());
+      results.push({ whisky, region: s.region || '', rrp: s.rrp, image_url: s.image_url, source: 'local' });
+    }
+  }
+  for (const entry of whiskyLibrary) {
+    const whisky = entry.whisky || '';
+    if (whisky.toLowerCase().includes(ql) && !seen.has(whisky.toLowerCase())) {
+      seen.add(whisky.toLowerCase());
+      results.push({ whisky, region: entry.region || '', type: entry.type || '', rrp: null, image_url: null, source: 'library' });
+    }
+  }
+  return results.slice(0, 10);
+}
+
+function renderAutocomplete(results, query) {
+  const list  = document.getElementById('autocompleteList');
+  const items = results.map(r => `
+    <div class="autocomplete-item" onclick='selectWhisky(${JSON.stringify(r)})'>
+      ${r.image_url ? `<img src="${esc(r.image_url)}" onerror="this.style.display='none'">` : ''}
+      <div class="ac-info">
+        <div class="ac-name">${esc(r.whisky)}</div>
+        <div class="ac-meta">${[r.region, r.type && r.source === 'library' ? r.type : null, r.rrp ? '$'+r.rrp : null].filter(Boolean).join(' · ')}</div>
+      </div>
+      <span class="ac-badge${r.source === 'library' ? ' lib' : ''}">${r.source === 'library' ? 'Lib.' : 'Prev.'}</span>
+    </div>`).join('');
+
+  const custom = `
+    <div class="autocomplete-item" onclick='selectWhisky({whisky:${JSON.stringify(query)},region:null,rrp:null,image_url:null})'>
+      <div class="ac-info">
+        <div class="ac-name">${esc(query)}</div>
+        <div class="ac-meta">Enter as new</div>
+      </div>
+      <span class="ac-badge new">New</span>
+    </div>`;
+
+  list.innerHTML = items + custom;
+  list.classList.add('open');
+}
+
+function selectWhisky(item) {
+  newSession.whisky    = item.whisky;
+  newSession.region    = item.region || '';
+  newSession.rrp       = item.rrp || null;
+  newSession.image_url = item.image_url || null;
+  newSession.dm_url    = null;
+
+  document.getElementById('whiskySearchInput').value = item.whisky;
+  document.getElementById('autocompleteList').classList.remove('open');
+  document.getElementById('whiskyNextBtn').disabled  = false;
+  document.getElementById('dmBanner').style.display  = 'none';
+
+  const dupWarn = document.getElementById('dupWarning');
+  const prev    = allSessions.find(s => s.whisky && s.whisky.toLowerCase() === item.whisky.toLowerCase());
+  if (prev) {
+    const detail = [prev.id, prev.date, prev.host ? `hosted by ${prev.host}` : null].filter(Boolean).join(' · ');
+    dupWarn.innerHTML     = `⚠ This whisky has already been poured — Session ${detail}. Freemaltson's rules prohibit repeats.`;
+    dupWarn.style.display = 'block';
+  } else {
+    dupWarn.style.display = 'none';
+  }
+
+  document.getElementById('whiskyNameInput').value = item.whisky;
+  document.getElementById('regionInput').value     = item.region || '';
+  document.getElementById('rrpInput').value        = item.rrp || '';
+
+  if (item.image_url) {
+    document.getElementById('imageUrlInput').value = item.image_url;
+    showImagePreview(item.image_url, 'Previous session');
+  }
+}
+
+function showImagePreview(url, source) {
+  const preview = document.getElementById('imagePreview');
+  const img     = document.getElementById('previewImg');
+  img.src       = url;
+  img.onerror   = () => { preview.style.display = 'none'; newSession.image_url = null; };
+  document.getElementById('previewName').textContent   = newSession.whisky || '';
+  document.getElementById('previewSource').textContent = source;
+  preview.style.display = 'flex';
+}
+
+// ─── Submit ───────────────────────────────────────────────────────────
+async function submitSession() {
+  const btn       = document.getElementById('submitBtn');
+  btn.disabled    = true;
+  btn.textContent = 'Recording…';
+
+  const session = {
+    id:        document.getElementById('sessionIdInput').value.trim() || null,
+    date:      document.getElementById('dateInput').value || null,
+    host:      normaliseHost(newSession.host),
+    whisky:    document.getElementById('whiskyNameInput').value.trim() || newSession.whisky,
+    region:    document.getElementById('regionInput').value.trim() || null,
+    rrp:       parseFloat(document.getElementById('rrpInput').value) || null,
+    image_url: document.getElementById('imageUrlInput').value.trim() || newSession.image_url || null,
+    dm_url:    newSession.dm_url || null,
+    notes:     null,
+  };
+
+  allSessions.push(session);
+  allSessions.sort((a, b) => {
+    const [ar, as_] = (a.id||':').split(':');
+    const [br, bs]  = (b.id||':').split(':');
+    const ri = romanToInt(ar) - romanToInt(br);
+    return ri !== 0 ? ri : romanToInt(as_) - romanToInt(bs);
+  });
+
+  await githubSave();
+  closeModal();
+  renderHeaderStats();
+  renderLedger();
+  renderFilters();
+  applyFilters();
+
+  btn.disabled    = false;
+  btn.textContent = 'Record Session';
+}
+
+// ─── Edit Modal ───────────────────────────────────────────────────────
+let editingSessionId = null;
+
+function setupEditModal() {
+  document.getElementById('editModalClose').addEventListener('click', closeEditModal);
+  document.getElementById('editCancelBtn').addEventListener('click', closeEditModal);
+  document.getElementById('editModalOverlay').addEventListener('click', e => {
+    if (e.target === document.getElementById('editModalOverlay')) closeEditModal();
+  });
+
+  document.getElementById('editClearImageBtn').addEventListener('click', () => {
+    document.getElementById('editImageUrlInput').value = '';
+    document.getElementById('editImagePreview').style.display = 'none';
+  });
+
+  document.getElementById('editImageUrlInput').addEventListener('input', e => {
+    const url = e.target.value.trim();
+    if (url) showEditImagePreview(url);
+    else document.getElementById('editImagePreview').style.display = 'none';
+  });
+
+  document.getElementById('editFindImageBtn').addEventListener('click', () => {
+    const whisky = document.getElementById('editWhiskyInput').value.trim();
+    const url    = `https://www.google.com/search?q=${encodeURIComponent(whisky + ' whisky bottle')}&tbm=isch`;
+    window.open(url, '_blank');
+  });
+
+  document.getElementById('editSaveBtn').addEventListener('click', saveEditSession);
+}
+
+function openEditModal(id) {
+  if (!id) return;
+  const s = allSessions.find(s => s.id === id);
+  if (!s) return;
+  editingSessionId = id;
+
+  document.getElementById('editModalHeading').textContent = 'Edit \u2014 ' + id.replace(':', '\u00b7');
+  document.getElementById('editWhiskyInput').value        = s.whisky || '';
+  document.getElementById('editRegionInput').value        = s.region || '';
+  document.getElementById('editRrpInput').value           = s.rrp || '';
+  document.getElementById('editDateInput').value          = s.date || '';
+  document.getElementById('editImageUrlInput').value      = s.image_url || '';
+  document.getElementById('editDmUrlInput').value         = s.dm_url || '';
+
+  if (s.image_url) showEditImagePreview(s.image_url);
+  else document.getElementById('editImagePreview').style.display = 'none';
+
+  document.getElementById('editModalOverlay').classList.add('open');
+}
+
+function closeEditModal() {
+  document.getElementById('editModalOverlay').classList.remove('open');
+  editingSessionId = null;
+}
+
+function showEditImagePreview(url) {
+  const preview = document.getElementById('editImagePreview');
+  const img     = document.getElementById('editPreviewImg');
+  img.src       = url;
+  img.onerror   = () => { preview.style.display = 'none'; };
+  document.getElementById('editPreviewName').textContent = document.getElementById('editWhiskyInput').value;
+  preview.style.display = 'flex';
+}
+
+async function saveEditSession() {
+  if (!editingSessionId) return;
+  const btn       = document.getElementById('editSaveBtn');
+  btn.disabled    = true;
+  btn.textContent = 'Saving…';
+
+  const fields = {
+    whisky:    document.getElementById('editWhiskyInput').value.trim() || null,
+    region:    document.getElementById('editRegionInput').value.trim() || null,
+    rrp:       parseFloat(document.getElementById('editRrpInput').value) || null,
+    date:      document.getElementById('editDateInput').value || null,
+    image_url: document.getElementById('editImageUrlInput').value.trim() || null,
+    dm_url:    document.getElementById('editDmUrlInput').value.trim() || null,
+  };
+
+  const idx = allSessions.findIndex(s => s.id === editingSessionId);
+  if (idx !== -1) Object.assign(allSessions[idx], fields);
+
+  await githubSave();
+  renderHeaderStats();
+  renderLedger();
+  applyFilters();
+  closeEditModal();
+
+  btn.disabled    = false;
+  btn.textContent = 'Save';
+}
+
+// ─── Settings ─────────────────────────────────────────────────────────
+function setupSettings() {
+  document.getElementById('settingsBtn').addEventListener('click', () => {
+    document.getElementById('patInput').value = getPat();
+    document.getElementById('settingsModalOverlay').classList.add('open');
+  });
+  document.getElementById('settingsModalClose').addEventListener('click', closeSettings);
+  document.getElementById('settingsCancelBtn').addEventListener('click', closeSettings);
+  document.getElementById('settingsModalOverlay').addEventListener('click', e => {
+    if (e.target === document.getElementById('settingsModalOverlay')) closeSettings();
+  });
+
+  document.getElementById('settingsSaveBtn').addEventListener('click', async () => {
+    const pat = document.getElementById('patInput').value.trim();
+    if (pat) localStorage.setItem(PAT_KEY, pat);
+    else localStorage.removeItem(PAT_KEY);
+    closeSettings();
+    setSyncStatus('syncing');
+    const data = await githubLoad();
+    if (data) {
+      allSessions = (data.sessions || []).filter(s => s.whisky || s.host);
+      allMembers  = data.members || [];
+      allSessions.forEach(s => { s.host = normaliseHost(s.host); });
+      setSyncStatus('synced');
+      renderHeaderStats();
+      renderLedger();
+      renderFilters();
+      applyFilters();
+    } else {
+      setSyncStatus('error');
+    }
+  });
+}
+
+function closeSettings() {
+  document.getElementById('settingsModalOverlay').classList.remove('open');
+}
+</script>
+</body>
+</html>
