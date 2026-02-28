@@ -6,7 +6,7 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="theme-color" content="#110b06">
-<title>Freemaltson's — Whisky Nights</title>
+<title>Freemaltsons — Whisky Nights</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -1200,7 +1200,7 @@ header::before {
 <header>
   <div class="header-inner">
     <div class="rule header-rule-top"><span class="rule-ornament">✦</span></div>
-    <h1 class="header-title">Freemaltson's</h1>
+    <h1 class="header-title">Freemaltsons</h1>
     <p class="header-subtitle">Whisky Nights</p>
     <div class="rule header-rule-bottom"><span class="rule-ornament">✦</span></div>
     <div class="header-stats">
@@ -1950,7 +1950,7 @@ function selectWhisky(item) {
   const prev    = allSessions.find(s => s.whisky && s.whisky.toLowerCase() === item.whisky.toLowerCase());
   if (prev) {
     const detail = [prev.id, prev.date, prev.host ? `hosted by ${prev.host}` : null].filter(Boolean).join(' · ');
-    dupWarn.innerHTML     = `⚠ This whisky has already been poured — Session ${detail}. Freemaltson's rules prohibit repeats.`;
+    dupWarn.innerHTML     = `⚠ This whisky has already been poured — Session ${detail}. Freemaltsons rules prohibit repeats.`;
     dupWarn.style.display = 'block';
   } else {
     dupWarn.style.display = 'none';
