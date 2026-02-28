@@ -65,7 +65,7 @@
       "date": "2015-11-26",
       "host": "Brune",
       "whisky": "Hakushu Single Malt Distillers Reserve",
-      "region": "ChÃÂÃÂ«bu (Japan)",
+      "region": "ChÃÂÃÂÃÂÃÂ«bu (Japan)",
       "image_url": null,
       "rrp": 115,
       "notes": null
@@ -96,9 +96,10 @@
       "host": "Fiddy",
       "whisky": "Glenkinchie 12 Year Old",
       "region": "Lowlands (Scotland)",
-      "image_url": null,
+      "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTJPrPpSxgC4twMmEZHXgyDv0uH6N3h_Q6BkQEPI0meTjOamC3LeBd1ficKcLrHfW-qAnfCa6-mwCxmWF598vTpGbMgk-TBKwSrHtpg_EKbGJJk3pe9vPpsVDwiV96ce80z0TQQeg&usqp=CAc",
       "rrp": 80,
-      "notes": null
+      "notes": null,
+      "dm_url": null
     },
     {
       "id": "II:IV",
