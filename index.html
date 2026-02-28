@@ -1341,9 +1341,19 @@ header::before {
     <div class="modal-step-label">GitHub Sync</div>
     <h2 class="modal-heading">Settings</h2>
     <div class="field">
-      <label class="field-label">Personal Access Token</label>
+      <label class="field-label">GitHub Personal Access Token</label>
       <input class="modal-input" id="patInput" type="password" placeholder="github_pat_…" autocomplete="off">
       <div class="field-hint">Fine-grained token → danielf-neara/freemaltsons → Contents: Read and write</div>
+    </div>
+    <div class="field">
+      <label class="field-label">Google API Key <span class="field-note">for bottle image search</span></label>
+      <input class="modal-input" id="googleKeyInput" type="password" placeholder="AIza…" autocomplete="off">
+      <div class="field-hint">Google Cloud Console → Custom Search API → Credentials</div>
+    </div>
+    <div class="field">
+      <label class="field-label">Search Engine ID <span class="field-note">(cx)</span></label>
+      <input class="modal-input" id="googleCxInput" type="text" placeholder="e.g. 012345678…" autocomplete="off">
+      <div class="field-hint">programmablesearchengine.google.com → your engine → Search engine ID</div>
     </div>
     <div class="modal-actions">
       <button class="btn-back" id="settingsCancelBtn">Cancel</button>
@@ -1354,9 +1364,11 @@ header::before {
 
 <script>
 // ─── Constants ────────────────────────────────────────────────────────
-const GITHUB_REPO  = 'danielf-neara/freemaltsons';
-const GITHUB_DATA  = 'data/sessions.json';
-const PAT_KEY      = 'freemaltsons_pat';
+const GITHUB_REPO   = 'danielf-neara/freemaltsons';
+const GITHUB_DATA   = 'data/sessions.json';
+const PAT_KEY       = 'freemaltsons_pat';
+const GOOGLE_KEY_LS = 'freemaltsons_google_key';
+const GOOGLE_CX_LS  = 'freemaltsons_google_cx';
 const ROMAN        = ['I','II','III','IV','V','VI','VII','VIII','IX','X','XI','XII'];
 const HOST_ALIASES = { brass:'Braas', braas:'Braas', willie:'Joess', joess:'Joess', fiddy:'Fiddy' };
 
@@ -1372,7 +1384,24 @@ let newSession        = { host:null, whisky:null, region:null, rrp:null, image_u
 let githubSha         = null;
 
 // ─── GitHub API ───────────────────────────────────────────────────────
-function getPat() { return localStorage.getItem(PAT_KEY) || ''; }
+function getPat()       { return localStorage.getItem(PAT_KEY)       || ''; }
+function getGoogleKey() { return localStorage.getItem(GOOGLE_KEY_LS) || ''; }
+function getGoogleCx()  { return localStorage.getItem(GOOGLE_CX_LS)  || ''; }
+
+async function findBottleImage(whiskyName) {
+  const key = getGoogleKey();
+  const cx  = getGoogleCx();
+  if (!key || !cx) return null;
+  try {
+    const q   = encodeURIComponent(whiskyName + ' whisky bottle');
+    const res = await fetch(
+      `https://www.googleapis.com/customsearch/v1?key=${key}&cx=${cx}&q=${q}&searchType=image&num=1`
+    );
+    if (!res.ok) return null;
+    const data = await res.json();
+    return data.items?.[0]?.link || null;
+  } catch { return null; }
+}
 
 async function githubLoad() {
   const pat     = getPat();
@@ -1678,10 +1707,25 @@ function setupModal() {
     if (url) { newSession.image_url = url; showImagePreview(url, 'Manually added'); }
   });
 
-  document.getElementById('findImageBtn').addEventListener('click', () => {
+  document.getElementById('findImageBtn').addEventListener('click', async () => {
     const whisky = document.getElementById('whiskyNameInput').value || newSession.whisky || '';
-    const url    = `https://www.google.com/search?q=${encodeURIComponent(whisky + ' whisky bottle')}&tbm=isch`;
-    window.open(url, '_blank');
+    const btn    = document.getElementById('findImageBtn');
+    if (getGoogleKey() && getGoogleCx()) {
+      btn.textContent = 'Searching…';
+      btn.disabled    = true;
+      const url = await findBottleImage(whisky);
+      btn.textContent = '🔍 Find';
+      btn.disabled    = false;
+      if (url) {
+        document.getElementById('imageUrlInput').value = url;
+        newSession.image_url = url;
+        showImagePreview(url, 'Google Images');
+      } else {
+        window.open(`https://www.google.com/search?q=${encodeURIComponent(whisky + ' whisky bottle')}&tbm=isch`, '_blank');
+      }
+    } else {
+      window.open(`https://www.google.com/search?q=${encodeURIComponent(whisky + ' whisky bottle')}&tbm=isch`, '_blank');
+    }
   });
 }
 
@@ -1913,10 +1957,24 @@ function setupEditModal() {
     else document.getElementById('editImagePreview').style.display = 'none';
   });
 
-  document.getElementById('editFindImageBtn').addEventListener('click', () => {
+  document.getElementById('editFindImageBtn').addEventListener('click', async () => {
     const whisky = document.getElementById('editWhiskyInput').value.trim();
-    const url    = `https://www.google.com/search?q=${encodeURIComponent(whisky + ' whisky bottle')}&tbm=isch`;
-    window.open(url, '_blank');
+    const btn    = document.getElementById('editFindImageBtn');
+    if (getGoogleKey() && getGoogleCx()) {
+      btn.textContent = 'Searching…';
+      btn.disabled    = true;
+      const url = await findBottleImage(whisky);
+      btn.textContent = '🔍 Find';
+      btn.disabled    = false;
+      if (url) {
+        document.getElementById('editImageUrlInput').value = url;
+        showEditImagePreview(url);
+      } else {
+        window.open(`https://www.google.com/search?q=${encodeURIComponent(whisky + ' whisky bottle')}&tbm=isch`, '_blank');
+      }
+    } else {
+      window.open(`https://www.google.com/search?q=${encodeURIComponent(whisky + ' whisky bottle')}&tbm=isch`, '_blank');
+    }
   });
 
   document.getElementById('editSaveBtn').addEventListener('click', saveEditSession);
@@ -1987,7 +2045,9 @@ async function saveEditSession() {
 // ─── Settings ─────────────────────────────────────────────────────────
 function setupSettings() {
   document.getElementById('settingsBtn').addEventListener('click', () => {
-    document.getElementById('patInput').value = getPat();
+    document.getElementById('patInput').value       = getPat();
+    document.getElementById('googleKeyInput').value = getGoogleKey();
+    document.getElementById('googleCxInput').value  = getGoogleCx();
     document.getElementById('settingsModalOverlay').classList.add('open');
   });
   document.getElementById('settingsModalClose').addEventListener('click', closeSettings);
@@ -2000,6 +2060,14 @@ function setupSettings() {
     const pat = document.getElementById('patInput').value.trim();
     if (pat) localStorage.setItem(PAT_KEY, pat);
     else localStorage.removeItem(PAT_KEY);
+
+    const gKey = document.getElementById('googleKeyInput').value.trim();
+    if (gKey) localStorage.setItem(GOOGLE_KEY_LS, gKey);
+    else localStorage.removeItem(GOOGLE_KEY_LS);
+
+    const gCx = document.getElementById('googleCxInput').value.trim();
+    if (gCx) localStorage.setItem(GOOGLE_CX_LS, gCx);
+    else localStorage.removeItem(GOOGLE_CX_LS);
     closeSettings();
     setSyncStatus('syncing');
     const data = await githubLoad();
