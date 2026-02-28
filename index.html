@@ -2060,6 +2060,9 @@ function setupEditModal() {
   });
 
   document.getElementById('editSaveBtn').addEventListener('click', saveEditSession);
+  document.getElementById('editModalOverlay').addEventListener('keydown', e => {
+    if (e.key === 'Enter' && !e.shiftKey) saveEditSession();
+  });
 }
 
 function openEditModal(id) {
