@@ -2171,16 +2171,21 @@ function closeSettings() {
 (function() {
   const homeView = document.getElementById('homeView');
   function enterApp() {
+    sessionStorage.setItem('fm_entered', '1');
     homeView.classList.add('fade-out');
     homeView.addEventListener('transitionend', () => {
       homeView.style.display = 'none';
     }, { once: true });
   }
   function showHome() {
+    sessionStorage.removeItem('fm_entered');
     homeView.style.display = '';
-    // Force reflow before removing fade-out so transition fires
     homeView.offsetHeight;
     homeView.classList.remove('fade-out');
+  }
+  // Skip home page if already entered this session (e.g. after a refresh)
+  if (sessionStorage.getItem('fm_entered')) {
+    homeView.style.display = 'none';
   }
   document.getElementById('homeEnterBtn').addEventListener('click', enterApp);
   document.querySelector('.header-title').addEventListener('click', showHome);
