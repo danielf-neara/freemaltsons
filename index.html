@@ -2292,21 +2292,77 @@ let mapViewActive   = false;
 
 function extractDistilleryName(whisky) {
   if (!whisky) return null;
-  const stop = /^(\d+|year|yr|yo|y\.o|old|single|triple|double|pure|original|special|limited|edition|reserve|malt|grain|blended|scotch|whisky|whiskey|bourbon|rye|irish|japanese|australian|storm|heritage|peated|sherry|port|finish|cask|expression|batch|no\.)$/i;
+  const stop = /^(\d+\w*|year|yr|yo|y\.o|old|single|triple|double|pure|original|special|limited|edition|reserve|malt|grain|blended|scotch|whisky|whiskey|bourbon|rye|irish|japanese|australian|organic|storm|heritage|peated|sherry|port|finish|cask|expression|batch|no\.|vintage|pinot|madeira|mizunara|barbazon|series|tasting|straight|un-chillfiltered)$/i;
   const words = whisky.replace(/\s*[-–]\s*/g, ' ').trim().split(/\s+/);
   const out = [];
+  let started = false;
   for (const w of words) {
-    if (stop.test(w)) break;
-    out.push(w);
-    if (out.length === 3) break;
+    if (stop.test(w)) {
+      if (started) break;   // stop after collecting words
+    } else if (w.toLowerCase() !== 'the') {
+      started = true;
+      out.push(w);
+      if (out.length === 3) break;
+    }
   }
-  if (out[0] && out[0].toLowerCase() === 'the') out.shift();
   return out.join(' ') || words[0];
 }
+
+// Hardcoded distillery coordinates — no geocoding needed for known whiskies
+const DISTILLERY_COORDS = {
+  'Aberlour':      { lat: 57.4668, lng: -3.2280 },
+  'Amrut':         { lat: 13.009,  lng: 77.594  },
+  'AnCnoc':        { lat: 57.5635, lng: -2.7584 },
+  'Arbelour':      { lat: 57.4668, lng: -3.2280 }, // typo → Aberlour
+  'Aultmore':      { lat: 57.5676, lng: -3.0025 },
+  'BLADNOCH':      { lat: 54.8579, lng: -4.4638 },
+  'Bains':         { lat: -33.641, lng: 19.016  },
+  'Balvenie':      { lat: 57.449,  lng: -3.130  },
+  'Benromach':     { lat: 57.6137, lng: -3.6196 },
+  'Bowmore':       { lat: 55.7568, lng: -6.2900 },
+  'Bunnahabhain':  { lat: 55.8829, lng: -6.1270 },
+  'Bushmills':     { lat: 55.197,  lng: -6.522  },
+  'Cragganmore':   { lat: 57.4102, lng: -3.3943 },
+  'Craigellachie': { lat: 57.4897, lng: -3.1871 },
+  'Dark Lark':     { lat: -42.884, lng: 147.329 },
+  'Edradour':      { lat: 56.7022, lng: -3.6994 },
+  'G Rozeliers':   { lat: 48.392,  lng: 6.478   },
+  'Glen Elgin':    { lat: 57.5993, lng: -3.2782 },
+  'Glen Garioch':  { lat: 57.3383, lng: -2.3194 },
+  'GlenAllachie':  { lat: 57.4558, lng: -3.2313 },
+  'Glencadam':     { lat: 56.7363, lng: -2.6535 },
+  'Glendalough':   { lat: 53.085,  lng: -6.107  },
+  'Glengoyne':     { lat: 56.0139, lng: -4.3649 },
+  'Glengrant':     { lat: 57.524,  lng: -3.208  },
+  'Glenkinchie':   { lat: 55.8910, lng: -2.8906 },
+  'Hakushu':       { lat: 35.827,  lng: 138.302 },
+  'Hellyers Road': { lat: -41.089, lng: 145.909 },
+  'Lagavulin':     { lat: 55.6356, lng: -6.1261 },
+  'Ledaig':        { lat: 56.624,  lng: -6.071  },
+  'Longmorn':      { lat: 57.6089, lng: -3.2831 },
+  'Milk and Honey':{ lat: 32.064,  lng: 34.776  },
+  'Miyagikyo':     { lat: 38.269,  lng: 140.874 },
+  'Oban':          { lat: 56.4148, lng: -5.4716 },
+  'Oban Little Bay':{ lat: 56.4148, lng: -5.4716 },
+  'Penderyn':      { lat: 51.745,  lng: -3.481  },
+  'Pulteney':      { lat: 58.439,  lng: -3.095  },
+  'Sazerac':       { lat: 38.202,  lng: -84.876 },
+  'Starward':      { lat: -37.833, lng: 144.929 },
+  'Tallisker':     { lat: 57.301,  lng: -6.352  },
+  'Tamdhu':        { lat: 57.4591, lng: -3.3533 },
+  'Teeling':       { lat: 53.338,  lng: -6.277  },
+  'Tomatin':       { lat: 57.3390, lng: -4.0093 },
+  'Wolfburn':      { lat: 58.5957, lng: -3.5507 },
+  'Writers Tears': { lat: 52.509,  lng: -6.969  },
+  // No fixed distillery: Signatory (independent bottler), Johnny green, Proper, Shinobu
+};
 
 const geocacheStore = JSON.parse(localStorage.getItem(GEO_CACHE_KEY) || '{}');
 
 async function geocodeDistillery(name) {
+  // Hardcoded takes priority — no API call needed
+  if (DISTILLERY_COORDS[name] !== undefined) return DISTILLERY_COORDS[name];
+  // Fall back to localStorage cache for any new whiskies added later
   if (geocacheStore[name] !== undefined) return geocacheStore[name];
   const url = `https://nominatim.openstreetmap.org/search?q=${encodeURIComponent(name + ' distillery')}&format=json&limit=1`;
   try {
