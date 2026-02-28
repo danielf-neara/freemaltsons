@@ -2076,7 +2076,7 @@ function openEditModal(idx) {
   if (!s) return;
   editingSessionIdx = idx;
 
-  document.getElementById('editModalHeading').textContent = 'Edit \u2014 ' + id.replace(':', '\u00b7');
+  document.getElementById('editModalHeading').textContent = 'Edit \u2014 ' + (s.id ? s.id.replace(':', '\u00b7') : s.whisky || '?');
   document.getElementById('editWhiskyInput').value        = s.whisky || '';
   document.getElementById('editRegionInput').value        = s.region || '';
   document.getElementById('editRrpInput').value           = s.rrp || '';
