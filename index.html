@@ -2353,6 +2353,9 @@ function initMap() {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
     maxZoom: 18
   }).addTo(mapInstance);
+  document.addEventListener('keydown', e => {
+    if (e.key === 'Escape' && mapViewActive) mapInstance.closePopup();
+  });
 }
 
 async function loadMapPins() {
