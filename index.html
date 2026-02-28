@@ -1773,6 +1773,11 @@ function setupModal() {
 
   document.getElementById('detailBackBtn').addEventListener('click', () => goStep(1));
   document.getElementById('submitBtn').addEventListener('click', submitSession);
+  document.getElementById('modalOverlay').addEventListener('keydown', e => {
+    if (e.key === 'Enter' && !e.shiftKey && document.getElementById('step2').style.display !== 'none') {
+      submitSession();
+    }
+  });
 
   document.getElementById('clearImageBtn').addEventListener('click', () => {
     newSession.image_url = null;
