@@ -1716,7 +1716,7 @@ function renderCard(s) {
     ? `<img src="${esc(s.image_url)}" alt="${esc(s.whisky||'')}" onerror="this.closest('.card-image').innerHTML=noImgHtml()">`
     : noImgHtml();
   const badgeText = s.id ? s.id.replace(':', ' · ') : '–';
-  return `<div class="card" onclick="openEditModal('${esc(s.id||'')}')">
+  return `<div class="card" onclick="openEditModal(${allSessions.indexOf(s)})">
     <div class="card-image">${img}</div>
     <div class="card-badge-rule">
       <span class="session-badge">${esc(badgeText)}</span>
@@ -2022,7 +2022,7 @@ async function submitSession() {
 }
 
 // ─── Edit Modal ───────────────────────────────────────────────────────
-let editingSessionId = null;
+let editingSessionIdx = -1;
 
 function setupEditModal() {
   document.getElementById('editModalClose').addEventListener('click', closeEditModal);
@@ -2070,11 +2070,10 @@ function setupEditModal() {
   });
 }
 
-function openEditModal(id) {
-  if (!id) return;
-  const s = allSessions.find(s => s.id === id);
+function openEditModal(idx) {
+  const s = allSessions[idx];
   if (!s) return;
-  editingSessionId = id;
+  editingSessionIdx = idx;
 
   document.getElementById('editModalHeading').textContent = 'Edit \u2014 ' + id.replace(':', '\u00b7');
   document.getElementById('editWhiskyInput').value        = s.whisky || '';
@@ -2092,7 +2091,7 @@ function openEditModal(id) {
 
 function closeEditModal() {
   document.getElementById('editModalOverlay').classList.remove('open');
-  editingSessionId = null;
+  editingSessionIdx = -1;
 }
 
 function showEditImagePreview(url) {
@@ -2105,7 +2104,7 @@ function showEditImagePreview(url) {
 }
 
 async function saveEditSession() {
-  if (!editingSessionId) return;
+  if (editingSessionIdx < 0) return;
   const btn       = document.getElementById('editSaveBtn');
   btn.disabled    = true;
   btn.textContent = 'Saving…';
@@ -2119,8 +2118,7 @@ async function saveEditSession() {
     dm_url:    document.getElementById('editDmUrlInput').value.trim() || null,
   };
 
-  const idx = allSessions.findIndex(s => s.id === editingSessionId);
-  if (idx !== -1) Object.assign(allSessions[idx], fields);
+  Object.assign(allSessions[editingSessionIdx], fields);
 
   await githubSave();
   renderHeaderStats();
