@@ -65,7 +65,7 @@
       "date": "2015-11-26",
       "host": "Brune",
       "whisky": "Hakushu Single Malt Distillers Reserve",
-      "region": "ChÅ«bu (Japan)",
+      "region": "ChÃÂ«bu (Japan)",
       "image_url": null,
       "rrp": 115,
       "notes": null
@@ -146,9 +146,10 @@
       "host": "Fiddy",
       "whisky": "Bushmills 10yr - Single Malt",
       "region": "Bushmills - Ireland",
-      "image_url": null,
+      "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcT-Yws75gtwHeVgdLVlq1ogot0fwFymgdphx61V33YU3q5JY6BOsV5YJicXC3oIO938CkxEoAl139IPE-vmi6SND0okNkL270Vx5TDZItOsI4OHThB-WtLWX0lIW_qo9Y3ZTmSzwOA&usqp=CAc",
       "rrp": 60,
-      "notes": null
+      "notes": null,
+      "dm_url": null
     },
     {
       "id": "III:III",
