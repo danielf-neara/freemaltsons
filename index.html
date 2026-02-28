@@ -61,9 +61,9 @@ html { scroll-behavior: smooth; }
 
 body {
   font-family: var(--font-sans);
-  background-color: #09060400;
+  background-color: #0d0906;
   background-image:
-    radial-gradient(ellipse 100% 60% at 50% 0%, #1e1008 0%, #09060400 55%);
+    radial-gradient(ellipse 100% 60% at 50% 0%, #1e1008 0%, #0d0906 55%);
   background-attachment: fixed;
   color: var(--cream);
   min-height: 100vh;
@@ -408,8 +408,8 @@ header::before {
 
 /* ── Card ────────────────────────────────────────────────────────── */
 .card {
-  background: var(--bg-surface);
-  border: 1px solid var(--border-gold);
+  background: #faf6f0;
+  border: 1px solid rgba(179,144,80,0.25);
   border-radius: var(--radius-sm);
   overflow: hidden;
   box-shadow: var(--shadow-card);
@@ -432,7 +432,7 @@ header::before {
 .card-image {
   width: 100%;
   height: 190px;
-  background: #0a0604;
+  background: #ffffff;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -488,14 +488,14 @@ header::before {
   right: 16px;
   top: 50%;
   height: 1px;
-  background: linear-gradient(90deg, transparent, var(--gold-faint) 25%, var(--gold-faint) 75%, transparent);
+  background: linear-gradient(90deg, transparent, rgba(179,144,80,0.2) 25%, rgba(179,144,80,0.2) 75%, transparent);
   transform: translateY(-50%);
 }
 
 .session-badge {
-  background: var(--bg-surface);
+  background: #faf6f0;
   border: 1px solid var(--gold-dim);
-  color: var(--gold);
+  color: var(--gold-dim);
   font-family: var(--font-serif);
   font-size: 0.7rem;
   font-weight: 400;
@@ -519,7 +519,7 @@ header::before {
   font-family: var(--font-serif);
   font-weight: 500;
   font-size: 1.1rem;
-  color: var(--cream);
+  color: #1a0d06;
   line-height: 1.35;
   margin-bottom: 4px;
 }
@@ -528,7 +528,7 @@ header::before {
   font-family: var(--font-serif);
   font-style: italic;
   font-size: 0.82rem;
-  color: var(--gold-lt);
+  color: var(--amber);
   margin-bottom: 12px;
   white-space: nowrap;
   overflow: hidden;
@@ -538,7 +538,7 @@ header::before {
 
 .card-divider {
   height: 1px;
-  background: linear-gradient(90deg, var(--border-gold), transparent);
+  background: linear-gradient(90deg, rgba(179,144,80,0.3), transparent);
   margin-bottom: 10px;
   flex-shrink: 0;
 }
@@ -556,14 +556,14 @@ header::before {
   font-size: 0.72rem;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: var(--cream);
+  color: #2a1a0a;
   font-weight: 500;
 }
 
 .card-rrp {
   font-family: var(--font-serif);
   font-size: 0.9rem;
-  color: var(--gold);
+  color: #6b4820;
   font-weight: 400;
 }
 
@@ -571,7 +571,7 @@ header::before {
   font-family: var(--font-sans);
   font-size: 0.65rem;
   letter-spacing: 0.08em;
-  color: var(--text-dim);
+  color: #8a6040;
   font-weight: 400;
   margin-top: auto;
   padding-top: 4px;
@@ -582,12 +582,12 @@ header::before {
   font-family: var(--font-sans);
   font-size: 0.62rem;
   letter-spacing: 0.06em;
-  color: var(--gold-dim);
+  color: #8a6040;
   text-decoration: none;
   margin-bottom: 10px;
   transition: color var(--transition);
 }
-.card-dm-link:hover { color: var(--gold); }
+.card-dm-link:hover { color: var(--amber); }
 
 .dm-banner {
   font-family: var(--font-sans);
