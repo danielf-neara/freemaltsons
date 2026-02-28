@@ -1459,6 +1459,7 @@ let activeRoundFilter = null;
 let searchQuery       = '';
 let newSession        = { host:null, whisky:null, region:null, rrp:null, image_url:null, dm_url:null };
 let githubSha         = null;
+let pendingImageFocus = null;
 
 // ─── GitHub API ───────────────────────────────────────────────────────
 function getPat()       { return localStorage.getItem(PAT_KEY)       || ''; }
@@ -1798,9 +1799,11 @@ function setupModal() {
         newSession.image_url = url;
         showImagePreview(url, 'Google Images');
       } else {
+        pendingImageFocus = 'imageUrlInput';
         window.open(`https://www.google.com/search?q=${encodeURIComponent(whisky + ' whisky bottle')}&tbm=isch`, '_blank');
       }
     } else {
+      pendingImageFocus = 'imageUrlInput';
       window.open(`https://www.google.com/search?q=${encodeURIComponent(whisky + ' whisky bottle')}&tbm=isch`, '_blank');
     }
   });
@@ -2047,9 +2050,11 @@ function setupEditModal() {
         document.getElementById('editImageUrlInput').value = url;
         showEditImagePreview(url);
       } else {
+        pendingImageFocus = 'editImageUrlInput';
         window.open(`https://www.google.com/search?q=${encodeURIComponent(whisky + ' whisky bottle')}&tbm=isch`, '_blank');
       }
     } else {
+      pendingImageFocus = 'editImageUrlInput';
       window.open(`https://www.google.com/search?q=${encodeURIComponent(whisky + ' whisky bottle')}&tbm=isch`, '_blank');
     }
   });
@@ -2166,6 +2171,15 @@ function setupSettings() {
 function closeSettings() {
   document.getElementById('settingsModalOverlay').classList.remove('open');
 }
+
+// ─── Auto-focus image URL field on tab return after Find ──────────────
+document.addEventListener('visibilitychange', () => {
+  if (document.visibilityState === 'visible' && pendingImageFocus) {
+    const el = document.getElementById(pendingImageFocus);
+    if (el) el.focus();
+    pendingImageFocus = null;
+  }
+});
 
 // ─── Home Page ────────────────────────────────────────────────────────
 (function() {
