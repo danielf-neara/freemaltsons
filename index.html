@@ -1188,6 +1188,13 @@ header::before {
 
 .header-title { cursor: pointer; }
 
+/* ── Footer ─────────────────────────────────────────────────────────── */
+footer {
+  text-align: center;
+  padding: 24px 16px 40px;
+  margin-top: 8px;
+}
+
 /* ── Map View ────────────────────────────────────────────────────────── */
 #mapView {
   display: none;
@@ -1323,7 +1330,6 @@ header::before {
     </button>
     <button class="map-toggle" id="mapToggle">Map</button>
     <span id="syncStatus" data-status="offline"></span>
-    <button class="stats-toggle" id="settingsBtn">⚙</button>
   </div>
 
   <div class="stats-panel" id="statsPanel">
@@ -1359,6 +1365,11 @@ header::before {
 
 <!-- ── FAB ─────────────────────────────────────────────────────────── -->
 <button class="fab" id="addBtn">Add Session</button>
+
+<!-- ── Footer ─────────────────────────────────────────────────────────── -->
+<footer>
+  <button class="stats-toggle" id="settingsBtn">⚙ Settings</button>
+</footer>
 
 <!-- ── Add Modal ──────────────────────────────────────────────────── -->
 <div class="modal-overlay" id="modalOverlay">
