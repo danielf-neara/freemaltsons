@@ -10,6 +10,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 <style>
 
 /* ── Root Variables ─────────────────────────────────────────────── */
@@ -1186,6 +1187,105 @@ header::before {
 }
 
 .header-title { cursor: pointer; }
+
+/* ── Map View ────────────────────────────────────────────────────────── */
+#mapView {
+  display: none;
+  width: 100%;
+  height: calc(100vh - 200px);
+  min-height: 400px;
+  position: relative;
+}
+
+#map { width: 100%; height: 100%; }
+
+.map-pin {
+  width: 12px;
+  height: 12px;
+  background: var(--gold);
+  border: 2px solid var(--gold-lt);
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(179,144,80,0.7), 0 0 4px rgba(179,144,80,0.5);
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.map-pin:hover { transform: scale(1.4); }
+
+/* Leaflet popup dark theme */
+.leaflet-popup-content-wrapper {
+  background: #0e0904;
+  color: var(--cream);
+  border: 1px solid var(--border-gold);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 0;
+}
+.leaflet-popup-content { margin: 0; width: auto !important; }
+.leaflet-popup-tip { background: #0e0904; }
+.leaflet-popup-close-button { color: var(--text-dim) !important; top: 8px !important; right: 10px !important; font-size: 18px !important; }
+.leaflet-popup-close-button:hover { color: var(--gold) !important; }
+
+.fm-popup { padding: 14px 16px; min-width: 200px; max-width: 260px; }
+.fm-popup-title {
+  font-family: var(--font-serif);
+  font-size: 1.05rem;
+  color: var(--gold-lt);
+  margin-bottom: 10px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--border-gold);
+}
+.fm-popup-session { margin-top: 10px; }
+.fm-popup-session + .fm-popup-session { border-top: 1px solid var(--border); padding-top: 10px; }
+.fm-popup-img {
+  width: 100%;
+  max-height: 100px;
+  object-fit: contain;
+  margin-bottom: 6px;
+  mix-blend-mode: multiply;
+  background: #faf6f0;
+  border-radius: 2px;
+}
+.fm-popup-whisky { font-size: 0.8rem; font-weight: 600; color: var(--cream); margin-bottom: 4px; }
+.fm-popup-meta { font-size: 0.65rem; color: var(--text-dim); display: flex; flex-wrap: wrap; gap: 4px 8px; }
+
+/* Map toggle button */
+.map-toggle {
+  font-family: var(--font-sans);
+  font-size: 0.65rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  background: transparent;
+  border: 1px solid var(--border-gold);
+  color: var(--gold);
+  padding: 5px 10px;
+  border-radius: var(--radius-xs);
+  cursor: pointer;
+  transition: var(--transition);
+  white-space: nowrap;
+}
+.map-toggle:hover, .map-toggle.active {
+  background: var(--gold-faint);
+  color: var(--gold-lt);
+}
+
+/* Map loading indicator */
+.map-loading {
+  position: absolute;
+  bottom: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #0e0904cc;
+  border: 1px solid var(--border-gold);
+  color: var(--gold);
+  font-family: var(--font-sans);
+  font-size: 0.65rem;
+  letter-spacing: 0.1em;
+  padding: 6px 14px;
+  border-radius: var(--radius-xs);
+  z-index: 1000;
+  pointer-events: none;
+}
 </style>
 </head>
 <body>
@@ -1221,6 +1321,7 @@ header::before {
     <button class="stats-toggle" id="statsToggle">
       Ledger <span class="toggle-arrow">▾</span>
     </button>
+    <button class="map-toggle" id="mapToggle">Map</button>
     <span id="syncStatus" data-status="offline"></span>
     <button class="stats-toggle" id="settingsBtn">⚙</button>
   </div>
@@ -1252,6 +1353,9 @@ header::before {
 
 <!-- ── Grid ────────────────────────────────────────────────────────── -->
 <div class="sessions-grid" id="sessionsGrid"></div>
+
+<!-- ── Map View ───────────────────────────────────────────────────────── -->
+<div id="mapView"><div id="map"></div></div>
 
 <!-- ── FAB ─────────────────────────────────────────────────────────── -->
 <button class="fab" id="addBtn">Add Session</button>
@@ -1440,6 +1544,7 @@ header::before {
   </div>
 </div>
 
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script>
 // ─── Constants ────────────────────────────────────────────────────────
 const GITHUB_REPO   = 'danielf-neara/freemaltsons';
@@ -2178,6 +2283,147 @@ function setupSettings() {
 function closeSettings() {
   document.getElementById('settingsModalOverlay').classList.remove('open');
 }
+
+// ─── Map ──────────────────────────────────────────────────────────────
+const GEO_CACHE_KEY = 'fm_geocache';
+let mapInstance     = null;
+let mapPinsLoaded   = false;
+let mapViewActive   = false;
+
+function extractDistilleryName(whisky) {
+  if (!whisky) return null;
+  const stop = /^(\d+|year|yr|yo|y\.o|old|single|triple|double|pure|original|special|limited|edition|reserve|malt|grain|blended|scotch|whisky|whiskey|bourbon|rye|irish|japanese|australian|storm|heritage|peated|sherry|port|finish|cask|expression|batch|no\.)$/i;
+  const words = whisky.replace(/\s*[-–]\s*/g, ' ').trim().split(/\s+/);
+  const out = [];
+  for (const w of words) {
+    if (stop.test(w)) break;
+    out.push(w);
+    if (out.length === 3) break;
+  }
+  if (out[0] && out[0].toLowerCase() === 'the') out.shift();
+  return out.join(' ') || words[0];
+}
+
+const geocacheStore = JSON.parse(localStorage.getItem(GEO_CACHE_KEY) || '{}');
+
+async function geocodeDistillery(name) {
+  if (geocacheStore[name] !== undefined) return geocacheStore[name];
+  const url = `https://nominatim.openstreetmap.org/search?q=${encodeURIComponent(name + ' distillery')}&format=json&limit=1`;
+  try {
+    const res  = await fetch(url, { headers: { 'User-Agent': 'FreemaltsonsWhiskyApp/1.0' } });
+    const data = await res.json();
+    const result = data.length > 0
+      ? { lat: parseFloat(data[0].lat), lng: parseFloat(data[0].lon) }
+      : null;
+    geocacheStore[name] = result;
+    localStorage.setItem(GEO_CACHE_KEY, JSON.stringify(geocacheStore));
+    return result;
+  } catch {
+    geocacheStore[name] = null;
+    localStorage.setItem(GEO_CACHE_KEY, JSON.stringify(geocacheStore));
+    return null;
+  }
+}
+
+function buildPopupHtml(distilleryName, sessions) {
+  const items = sessions.map(s => `
+    <div class="fm-popup-session">
+      ${s.image_url ? `<img class="fm-popup-img" src="${esc(s.image_url)}" onerror="this.style.display='none'">` : ''}
+      <div class="fm-popup-whisky">${esc(s.whisky || '–')}</div>
+      <div class="fm-popup-meta">
+        ${s.id   ? `<span>${esc(s.id.replace(':', ' · '))}</span>` : ''}
+        ${s.date ? `<span>${esc(s.date)}</span>` : ''}
+        ${s.region ? `<span>${esc(s.region)}</span>` : ''}
+        ${s.rrp  ? `<span>$${esc(String(s.rrp))}</span>` : ''}
+        ${s.host ? `<span>${esc(s.host)}</span>` : ''}
+      </div>
+    </div>`).join('');
+  return `<div class="fm-popup"><div class="fm-popup-title">${esc(distilleryName)} Distillery</div>${items}</div>`;
+}
+
+function initMap() {
+  if (mapInstance) return;
+  mapInstance = L.map('map', { zoomControl: true }).setView([30, 10], 2);
+  L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+    maxZoom: 18
+  }).addTo(mapInstance);
+}
+
+async function loadMapPins() {
+  if (mapPinsLoaded) return;
+  mapPinsLoaded = true;
+
+  // Group sessions by distillery name
+  const groups = {};
+  for (const s of allSessions) {
+    if (!s.whisky) continue;
+    const name = extractDistilleryName(s.whisky);
+    if (!name) continue;
+    if (!groups[name]) groups[name] = [];
+    groups[name].push(s);
+  }
+
+  const names    = Object.keys(groups);
+  const uncached = names.filter(n => geocacheStore[n] === undefined);
+
+  // Show loading indicator only if there are uncached distilleries
+  let loader = null;
+  if (uncached.length > 0) {
+    loader = document.createElement('div');
+    loader.className = 'map-loading';
+    loader.textContent = `Locating distilleries… (0 / ${uncached.length})`;
+    document.getElementById('mapView').appendChild(loader);
+  }
+
+  let done = 0;
+  for (const name of names) {
+    const needsDelay = geocacheStore[name] === undefined;
+    const coords = await geocodeDistillery(name);
+    if (needsDelay) {
+      done++;
+      if (loader) loader.textContent = `Locating distilleries… (${done} / ${uncached.length})`;
+      await new Promise(r => setTimeout(r, 1100));
+    }
+    if (!coords) continue;
+
+    const icon = L.divIcon({ html: '<div class="map-pin"></div>', className: '', iconSize: [12, 12], iconAnchor: [6, 6] });
+    L.marker([coords.lat, coords.lng], { icon })
+      .addTo(mapInstance)
+      .bindPopup(buildPopupHtml(name, groups[name]), { maxWidth: 280 });
+  }
+
+  if (loader) loader.remove();
+}
+
+function showMapView() {
+  if (mapViewActive) return;
+  mapViewActive = true;
+  document.getElementById('sessionsGrid').style.display = 'none';
+  document.getElementById('mapView').style.display = 'block';
+  document.getElementById('addBtn').style.display = 'none';
+  document.getElementById('mapToggle').classList.add('active');
+  document.getElementById('mapToggle').textContent = 'Sessions';
+  setTimeout(() => {
+    initMap();
+    mapInstance.invalidateSize();
+    loadMapPins();
+  }, 50);
+}
+
+function showGridView() {
+  if (!mapViewActive) return;
+  mapViewActive = false;
+  document.getElementById('sessionsGrid').style.display = '';
+  document.getElementById('mapView').style.display = 'none';
+  document.getElementById('addBtn').style.display = '';
+  document.getElementById('mapToggle').classList.remove('active');
+  document.getElementById('mapToggle').textContent = 'Map';
+}
+
+document.getElementById('mapToggle').addEventListener('click', () => {
+  mapViewActive ? showGridView() : showMapView();
+});
 
 // ─── Auto-focus image URL field on tab return after Find ──────────────
 document.addEventListener('visibilitychange', () => {
